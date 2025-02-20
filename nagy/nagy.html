@@ -1,0 +1,633 @@
+<html><head><title>
+	نتائج 
+</title>
+    <style>
+body
+{
+}
+body::after {
+  content: "";
+background-image:url(http://www.mis.bsu.edu.eg/MisResults/style/imges/univv.jpeg);
+background-repeat: no-repeat;
+background-position: center;
+background-size:cover;
+background-attachment: fixed;
+  opacity: 0.7;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+.page-header { 
+     background:url(http://www.mis.bsu.edu.eg/MisResults/style/imges/mis.jfif);
+     background-repeat:no-repeat;
+     background-position:center;
+     background-size:130px 35px;
+     top:110px;
+     left:45%;
+     width:130px;
+     height:35px;
+     color:white;
+     position:relative;
+     border-radius:3%;
+     border:4px solid #e8e4e5;  
+}
+#masthead{
+  position:absolute;
+  /*background:#171717;*/
+   background:	#222222;
+  height:13px;
+  width:100%;
+  opacity: 0.7;
+  top:0px;
+}
+.footer{
+      /*left: 0;*/
+  bottom: 0;
+  /*right: 0;*/
+ position:fixed;
+   width:100%;
+   height:6%; 
+  /* background:#050102;*/
+   background:	#222222;
+   margin-bottom: 0px;
+}
+.prag
+{
+    color: #ffffff;
+    margin: 0px auto;
+    padding: 7px 0px 0px;
+    width: 500px;
+    font-family:Lucida Sans", sans-serif";
+    font-weight: 400;
+    font-size: 14px;
+    float: right;
+    line-height: 14px;
+     right:50px;
+}
+.counter{
+ color: #ffffff;
+ margin: 0px auto;
+ padding: 7px 0px 0px;
+ width: 400px;
+ font-family:Lucida Sans", sans-serif";
+ font-weight: 400;
+ font-size: 14px;
+ float: left;
+padding-left:400px;
+ line-height: 14px;
+}
+</style>
+</head>
+<body>
+    <form method="post" action="./MisResults.aspx" onsubmit="javascript:return WebForm_OnSubmit();" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="1GxQSBbo078VC5QuuSdHrtCfA43gEcVi6BErc+UD67XzBx0Zot+gB2wa86/cj0VknxwFaccqhZNo6VOlIwQPPv4UgsVVf2UlMzs+CgJoRROzaaYafbWIPDjFKA1jgvoluyidSbc1GtpcEcCs9dXESclWr1U4SrvabnsXG5TJVB2uzbeBQG0P4ytvFBDJRlp7rbtOuufSiHztEqH2PSM7UrBlfNkpyH8OZGYOl9q6RpRXUdy1YGDRgNbqriSy+M+GTRt+YZscOppSti2q8pP+yvUpcyS30P2c2/TWaRPZkFr0xgqG5kfXlmt5yb57Fmv1pnGZiWrHnq5bbCsRzFkmcxJ3c8x0/bSHu1iNoVIlQ1uX/2hv+t5R61hFfdnu1n9K8t4zZIUHb8RWs5cjy9bFkQRXSB2fkDefZP3jkNoue5ks4pfYUrvlFMzOOwEyqVPj5dLRxycFE1JSt5sSfWnWjkcE67Lcr4aXu+h/yc6iAfg/4gE3h9jdm7h0pHM6lpS9w1DP6ruONW9BdH+pw976tS/WmGA1I15BskIBGxnq6ar8gCkCt5tsNW4OxrhJ5uZCTKzApsGEDaIBlD9jnYFN1F/2GBvwDa7+sUDWEKfIlLO7Tx1YMKa7v9cXTJ6mN/b1t3OuFeefFymlMIeEn+rESskWZs4/GJGQ1qkdX5CT85Ns0nedUQhMr+j4lahzVh8U17qfaPAlHC/W1mAnBXAUMc1vYfIgCcrbLHUVpcVR6zCgsZ/6AViIYoswji6d/kOVh645lCOekn4wPmZKLLs4Zt4BiJvKpEw1oEsZQO+qhqGWRb0bzqc9xfQTWzOXSUKXbhdHr3A5e+17iOiN8wEx2967qpW1uvNOhFIPwEuZv+SF9XKHSTcdoMQ8ddDv9XSi+6vm5nmgo6Ip+xbYZIja9ogU2JMCkUKOmY5E77POto575jrXgsswswy0CnRrhD+/0cbLEaSgjDjf+/HeasKdncubkCmIYCwTIfixu/DurVTmp+p6dBytWR41cfR8cqTvr4lxqqX/kOctevZQwg/+lBx93jkHdHVaWJn/Rq8AqDrDdJaoq94rbN+bNskHqprBFPeRgcjRQtP+kUO7KFQUOQ65edWeMQmvnUuynY+ENH64DbozWIqQ+CGVLfSkKaBDrMWjIFe0uJYjdiZErABiTRq7og4M9Md/uIBejeLfLSUGI8PRlH8LFoCqs7mtqaw+MSv9yXZ5xmv8c2al6IXWRQziTYl1aXiSkonOvD58c55UaX8MwC62m7L6ZC+pKzvhZ0mGegrTXcyuh+KA3naMlRS3jwEHD+w9b5XKIVf4Qj0PhWHnF4uJxuSfxoI6WkF3CqDtER5eSgBLmwoNzF18m7L0AdWAEqSaBIV+anGQFfTMHDay/Llc1lBjZpgyrS3o+hLHJl1g4df4PAIslmK315rw9qWqXwk6OHsr/OcfpafSq33tYl7Uh8dnwDE3cerQMpYA3GAlPUHQ+M67sDoZn3DmqjU7y3ufScSG3ld16gwZY1OUfAxr8E237KmKwlYG67RACk/iXu3ov5jZO/X6Y2Fx6uP+UrnvWGAADRneqHGFd5IjYQeAZF/YMNZOVJEhmDQvE1bTx1gi1yQjrCrzIZu/7RdIuWVXo9tT+5z61EQMR7jlN/bssxfUulAs8YJaUpIg+PbENqLJnZIgv/CSo1umtKcOysxRNKhbG1xMRDmFZ3HTpPcyYYRAxdI+67ukDqXd9wG0QSl7jLJYuzsVIiYi4DavpeQO0ToBtZoyZvzfMcOKYJecXE6P8YieSr11sfS+K0vaWwVeWZyqqm3lTg==">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/MisResults/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZJl3LOpDUZxi9_s51UgBHYV7nHZZrUu9tsregwMPjkCkhJVYIKb1OFx9unnAhOQ57A2&amp;t=636940025766230707" type="text/javascript"></script>
+
+
+<script src="/MisResults/WebResource.axd?d=x2nkrMJGXkMELz33nwnakJ8ZGyJJmIfwvQOY20R916Ax82Y5orq3xiPepNNscTHadv3ryTAAqwLJp1p_LZXYL0M_jDXUiVSCiNkRD0hSKO81&amp;t=636940025766230707" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+function WebForm_OnSubmit() {
+if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+return true;
+}
+//]]>
+</script>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="63C106F8">
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="pTfy0k9Xdh0pi1mjOnfwVOEgKa2LErKC+giIhbjYLMnlkvU6n+GlmAlgPyjINTE/7jcBpr9Wvwn6coaiNn9QLDIiiyeKlfeMJXbUzRPuZgzcSl6M+y/2VoJNh3zsKQHcgZBPqtq+VxfwCkDnEN5UaAeB6jSJnIzOuaURvecAtZvnM0pDOREVxdHSoxcdgW2wloweigyM1RMYp5mC6HgubbZgaO6LrCQuN+oAALVuTEloWDanW4naJcaGBarMrhlNRBwDiykZwktJZ2c9Ea11AxPZJvULij0+nzbZ4sb1n9w0eMNEBrfYTrwyk+LUGrRWFTeFjHyl3wckYILYMEGiFwhj++YUIYnLWOLLAZgKTsegXCNYLJmGpRLf36UxB8fgd3gdAQjUluq8sVkeeBAq+sdRm1kWu/wZUUMqDot0wNzssI/mhKQcpG3aZVJ3GaOwHYe0IAONGyJCSh1U8Yi54B9XhVFqcfofGabuVQxXMtjKyHEcdXuXulASVhFDzapgNUzwtbzNrTE4IboisOQmmFEw+J1Rr9dxN1MSmw8zgdfvWfsFkU4obW2EsXzmYUkiEiilzDr+Y0SH3i47VC7v4oPngch6GOjto87jDZRphlvcJGs2bMdgG8FitZ8LmREO3WQ8LPAjPnziMp2GjyjLCQC++ljw1eOD5BUmKrS2aZej9MTZttbBLZ33XxZq7eU0b8x+8QBsTuOtWz1f+grnJ7gAoEPtnnbZYPHCrcVu52E=">
+</div>
+<div class="page-header">
+ </div>
+        <div>
+            
+            
+
+
+    <title></title>
+    <style>
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+:root, button{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, serif;
+    /*font-family: 'Raleway', serif;*/
+}
+u
+*{
+    box-sizing: border-box;
+}
+.color{
+    background: linear-gradient(to right, #e1e0ff, #d7fadd);
+    /* background: linear-gradient(to right, #e1e0ff, #d7fadd);*/
+}
+h1{
+  padding-bottom: 40px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 12px;
+}
+p{
+    padding-bottom: 15px;
+}
+p:last-of-type{
+    padding-bottom: 0;
+}
+.try-again{
+    cursor: pointer;
+    position: relative;
+    font-size: 12px;
+}
+.try-again:after{
+    content: '';
+    position: absolute;
+    left: 15px;
+    right: 15px;
+    height: 1px;
+    top: 100%;
+    background: #f5ebeb;
+    margin-top: 8px;
+    transition: all 0.3s ease;
+}
+.try-again:hover:after{
+    left: 40%;
+    right: 40%;
+}
+.wrapper{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button{
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+    -webkit-appearance: none;
+    background:none;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border-radius: 2px;
+    transition: all 0.5s ease;
+    font-weight: 600;
+    font-size: 16px;
+    height: 60px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid rgba(0,0,0,0.06);
+    border-radius: 2px;
+    box-shadow: 0 0 0 white, 0 0 0 white;
+     box-shadow: -15px 0 70px -15px #c4ed6a, 15px 0 70px -15px #c4ed6a;
+    /*box-shadow: -15px 0 70px -15px #0475ff, 15px 0 70px -15px #0475ff;*/
+}
+.button-text{
+    display: inline-block;
+    position: relative;
+    color:green;
+    z-index: 2;
+    /* background: linear-gradient(to right, #5251e5, #81b6f1);*/
+    background: linear-gradient(to right, #3a3efb, #3a3efb);
+    /*background: linear-gradient(to right, #504bff, #4cfa63);*/
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:#2428ed;
+     font-weight: 900;
+      line-height: 16px;
+       font-family:Lucida Sans", sans-serif";
+       /*font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;*/
+    /*-webkit-text-fill-color: transparent;*/
+}
+.button-circle{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #4b47e2, 0 0 20px #f0f0f7, 0 0 30px #d7fadd;
+     /*box-shadow: 0 0 10px #504bff, 0 0 20px #504bff, 0 0 30px #504bff;*/
+    transition: all 0.5s ease;
+}
+.button-circle2{
+    top: auto;
+    bottom: 0;
+}
+.button-circle3{
+    left: auto;
+    right: 0;
+     /*box-shadow: 0 0 10px #4cfa63, 0 0 20px #4cfa63, 0 0 30px #4cfa63;*/
+    box-shadow: 0 0 10px #daef1c, 0 0 20px #daef1c, 0 0 30px #daef1c;
+}
+.button-circle4{
+    left: auto;
+    top: auto;
+    bottom: 0;
+    right: 0;
+    box-shadow: 0 0 10px #4cfa63, 0 0 20px #4cfa63, 0 0 30px #4cfa63;
+}
+.button:hover{
+   /* box-shadow: -15px 0 70px -15px #c4ed6a, 15px 0 70px -15px #c4ed6a;*/
+     /*box-shadow: -15px 0 70px -15px #9df1c2, 15px 0 70px -15px #47fb5f;*/
+   /* box-shadow: -15px 0 70px -15px #504bff, 15px 0 70px -15px #4cfa63;*/
+}
+.button:hover .button-circle1{
+    transform: translate(-15px, -15px) scale(0);
+}
+.button:hover .button-circle2{
+    transform: translate(-15px, 15px) scale(0);
+}
+.button:hover .button-circle3{
+    transform: translate(15px, -15px) scale(0);
+}
+.button:hover .button-circle4{
+    transform: translate(15px, 15px) scale(0);
+}
+.button:hover .button-circle{
+    box-shadow: none;
+}
+.popup{
+    opacity: 0;
+    visibility: hidden;
+    height: 400px;
+    width: 400px;
+    flex-shrink: 0;
+    border-radius: 3px;
+    position: relative;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease
+}
+.popup-inside{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 50%;
+    box-shadow: 0 0 0 black;
+    transition:
+            box-shadow 0.5s ease 0.7s,
+            border-radius 0.35s ease 0.7s;
+}
+.backgrounds{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.background{
+    --offset: 0;
+    position: absolute;
+    left: var(--offset);
+    right: var(--offset);
+    bottom: var(--offset);
+    top: var(--offset);
+    /* background: linear-gradient(to right, #504bff, #4cfa63);*/
+    /*background: linear-gradient(to right, #000000, #4cfa63);*/
+    background: linear-gradient(to right, #000000, #4cfa63);
+    /*#4FDB63*/
+    transform: scale(0);
+    transition: all 0.5s ease 0s;
+    border-radius: 50%;
+}
+.background2{
+    --offset: 10%;
+    position: absolute;
+    left: var(--offset);
+    right: var(--offset);
+    bottom: var(--offset);
+    top: var(--offset);
+    /*background: linear-gradient(to right, #6665ff, #69fa7f);*/
+    background: linear-gradient(to right, #1b1b1b, #20b274);
+    transform: scale(0);
+    transition: all 0.5s ease 0.1s;
+}
+.background3{
+    --offset: 20%;
+    position: absolute;
+    left: var(--offset);
+    right: var(--offset);
+    bottom: var(--offset);
+    top: var(--offset);
+    background: linear-gradient(to right, #8583ff, #85fa99);
+    /* background: linear-gradient(to right, #8583ff, #85fa99);*/
+    z-index: 2;
+    transition: all 0.5s ease 0.2s;
+}
+.background4{
+    --offset: 30%;
+    position: absolute;
+    left: var(--offset);
+    right: var(--offset);
+    bottom: var(--offset);
+    top: var(--offset);
+    /*background: linear-gradient(to right, #aaaaff, #a7fab7);*/
+    background: linear-gradient(to right, #aaaaff, #a7fab7);
+    z-index: 3;
+    transition: all 0.5s ease 0.3s;
+}
+.background5{
+    --offset: 40%;
+    position: absolute;
+    left: var(--offset);
+    right: var(--offset);
+    bottom: var(--offset);
+    top: var(--offset);
+    /*background: linear-gradient(to right, #c9c8ff, #c3fad1);*/
+    background: linear-gradient(to right, #c9c8ff, #c3fad1);
+    z-index: 4;
+    transition: all 0.5s ease 0.4s;
+}
+.background6{
+    --offset: 40%;
+    position: absolute;
+    left: var(--offset);
+    right: var(--offset);
+    bottom: var(--offset);
+    top: var(--offset);
+    background: white;
+    z-index: 5;
+    transition: all 0.8s ease 0.4s;
+}
+.content{
+    --offset: 0;
+    position: absolute;
+    left: var(--offset);
+    right: var(--offset);
+    bottom: var(--offset);
+    top: var(--offset);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: all 0.35s ease 0.75s;
+    z-index: 10;
+}
+.content-wrapper{
+    text-align: center;
+}
+body.active .content{
+    opacity: 1;
+    transform: none;
+}
+body.active .popup{
+    opacity: 1;
+    visibility: visible;
+}
+body.active .popup-inside{
+    border-radius: 0;
+    box-shadow: -50px 0 200px -50px #000000, 50px 0 200px -50px #4cfa63;
+    /* box-shadow: -50px 0 200px -50px #504bff, 50px 0 200px -50px # box-shadow: -50px 0 200px -50px #504bff, 50px 0 200px -50px #4cfa63;;*/
+}
+body.active .background{
+    transform: scale(1);
+}
+body.active .background6{
+    transform: scale(8);
+}
+.nav-links{
+    height: 42px;
+    text-align:right;
+    width: calc(100% / 3 - 15px);
+    width:350px;
+ display:flex;
+    align-items:center;
+ font-size: 14px;
+ font-weight: 400;
+ color: #333;
+ border-radius: 5px;
+ border: 1px solid #aaa;
+ padding:0  15px ;
+ height: 42px;
+ margin:8px  0;
+ text-align:right;
+ direction:rtl;
+}
+.nav-linkss{
+    height: 42px;
+    text-align:right;
+    width: calc(100% / 3 - 15px);
+    width:319px;
+ display:flex;
+    align-items:center;
+ font-size: 14px;
+ font-weight: 400;
+ color: #333;
+ border-radius: 5px;
+ border: 1px solid #aaa;
+ padding:0  15px ;
+ height: 42px;
+ margin:8px  0;
+ text-align:right;
+ direction:rtl;
+}
+.searchkBtn {
+  width:70px; 
+  height:70px; 
+   border-left:20px solid transparent; 
+  border-bottom:20px solid green;
+  border-right: 20px solid transparent;
+  border-top:  20px solid red;
+  transition: all 0.3s linear;
+  font-size: 16px;
+  font-weight: 500;
+  color:#440707;
+  content:"بحث";
+
+ }
+.design-btn{
+  margin-top: 160px;
+  text-align: center;
+  color: #ffffff;
+}
+.out-of-screen {
+    position:absolute;
+    top:-2000em;
+}
+.logo {
+	  content: "";
+	  display: block;
+	  width: 100%;
+	  height: 100%;
+	  position: absolute;
+	  top: 15%;
+	  left: calc(50% - 50px);
+	  background:url(style/imges/mis.jfif);
+	  background-size: 100px 100px;
+	  background-position: 30px 30px;
+	  background-repeat: no-repeat;
+	  opacity: 0.7;
+	}
+</style>
+
+
+    <div class="wrapper">
+    <div class="button" onclick="document.body.classList.add('active')">
+            <span class="button-text">النتيجة</span>
+            <div class="button-backgrounds">
+                <div class="button-circle button-circle1"></div>
+                <div class="button-circle button-circle2"></div>
+                <div class="button-circle button-circle3"></div>
+                <div class="button-circle button-circle4"></div>
+            </div>
+       </div>
+    </div>
+    <div class="wrapper">
+        <div class="popup">
+            <div class="popup-inside">
+                <div class="backgrounds">
+                    <div class="background"></div>
+                    <div class="background background2"></div>
+                    <div class="background background3"></div>
+                    <div class="background background4"></div>
+                    <div class="background background5"></div>
+                    <div class="background background6"></div>
+                </div>
+            </div>
+            <div class="content">
+                <div class="content-wrapper">
+                    <h1>الكلية و الرقم القومي / كود الطالب</h1>           
+                       <select name="ctl00$ContentPlaceHolder1$ddl_fact" id="ContentPlaceHolder1_ddl_fact" class="nav-links">
+	<option value="">إخترالكلية</option>
+	<option value="1">كلية التربية</option>
+	<option value="2">كلية التكنولوجيا والتعليم</option>
+	<option value="3">كلية التمريض</option>
+	<option value="4">كلية الصيدله</option>
+	<option value="5">كلية التربية الرياضية</option>
+	<option value="7">كلية الحقوق</option>
+	<option value="8">كلية الطب</option>
+	<option value="9">كلية الطب البيطرى</option>
+	<option value="10">كلية العلوم</option>
+	<option value="11">كلية الآداب</option>
+	<option value="358">كلية التربية للطفولة المبكرة</option>
+	<option value="431">كلية الهندسة</option>
+	<option value="579">كلية السياسة والاقتصاد</option>
+	<option value="588">كلية الاعلام</option>
+	<option value="590">كلية الحاسبات والذكاء الاصطناعى</option>
+	<option value="591">كلية طب الاسنان</option>
+	<option value="592">كلية العلاج الطبيعى</option>
+	<option value="603">كلية الزراعة</option>
+	<option value="604">كلية تكنولوجيا العلوم الصحية التطبيقية</option>
+	<option value="605">كلية الفنون التطبيقية</option>
+	<option value="607">كلية الخدمة الاجتماعية التنموية</option>
+	<option value="609">كلية الالسن</option>
+	<option value="610">كلية السياحة والفنادق</option>
+	<option value="612">كلية علوم الارض</option>
+	<option value="613">كلية علوم ذوى الاحتياجات الخاصة</option>
+	<option value="625">معهد فنى تمريض</option>
+	<option value="681">كلية علوم الملاحة و تكنولوجيا الفضاء</option>
+
+</select>
+                        <span id="ContentPlaceHolder1_Required_ddl_fact" class="design-font" style="color:red;display:none;">إختر الكلية</span>
+                       <input name="ctl00$ContentPlaceHolder1$txt_national" type="text" id="ContentPlaceHolder1_txt_national" class="nav-linkss">
+                        <span id="ContentPlaceHolder1_Required_txt_national" class="design-font" style="color:red;display:none;">أبحث بالرقم القومي / كود الطالب</span>
+                       <br>
+                    <br>
+                    <input type="submit" name="ctl00$ContentPlaceHolder1$btn_search" value="بحث" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ContentPlaceHolder1$btn_search&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="ContentPlaceHolder1_btn_search" place-holder="بحث" class="searchkBtn">
+                   <!-- <p>أعد المحاولة </p> -->
+                    <p class="try-again" onclick="document.body.classList.remove('active')">إلغاء</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+    <p class="prag">جميع الحقوق محفوظة © نظم المعلومات الإدارية - جامعة بني سويف</p>
+    
+     <span id="ContentPlaceHolder1_lblTotalNumberOfUsers" class="counter">عدد الزوار = 8850</span>
+     
+    </div>
+
+
+
+         <header id="masthead">
+  </header>
+  <article id="archiveNav">
+  </article>
+    <div id="sortBar"> 
+    </div>
+        </div>
+    
+<script type="text/javascript">
+//<![CDATA[
+var Page_Validators =  new Array(document.getElementById("ContentPlaceHolder1_Required_ddl_fact"), document.getElementById("ContentPlaceHolder1_Required_txt_national"));
+//]]>
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+var ContentPlaceHolder1_Required_ddl_fact = document.all ? document.all["ContentPlaceHolder1_Required_ddl_fact"] : document.getElementById("ContentPlaceHolder1_Required_ddl_fact");
+ContentPlaceHolder1_Required_ddl_fact.controltovalidate = "ContentPlaceHolder1_ddl_fact";
+ContentPlaceHolder1_Required_ddl_fact.focusOnError = "t";
+ContentPlaceHolder1_Required_ddl_fact.display = "Dynamic";
+ContentPlaceHolder1_Required_ddl_fact.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+ContentPlaceHolder1_Required_ddl_fact.initialvalue = "";
+var ContentPlaceHolder1_Required_txt_national = document.all ? document.all["ContentPlaceHolder1_Required_txt_national"] : document.getElementById("ContentPlaceHolder1_Required_txt_national");
+ContentPlaceHolder1_Required_txt_national.controltovalidate = "ContentPlaceHolder1_txt_national";
+ContentPlaceHolder1_Required_txt_national.focusOnError = "t";
+ContentPlaceHolder1_Required_txt_national.display = "Dynamic";
+ContentPlaceHolder1_Required_txt_national.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+ContentPlaceHolder1_Required_txt_national.initialvalue = "";
+//]]>
+</script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+
+var Page_ValidationActive = false;
+if (typeof(ValidatorOnLoad) == "function") {
+    ValidatorOnLoad();
+}
+
+function ValidatorOnSubmit() {
+    if (Page_ValidationActive) {
+        return ValidatorCommonOnSubmit();
+    }
+    else {
+        return true;
+    }
+}
+        //]]>
+</script>
+</form>
+
+
+</body></html>
