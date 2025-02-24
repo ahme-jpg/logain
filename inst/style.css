@@ -1,205 +1,7469 @@
-* {
-    border: none;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
+.ST79bf75348049454da2929315c2556bef a
+{
+
+					color: #027FAA;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					text-decoration: none;
 }
+.ST79bf75348049454da2929315c2556bef a:hover
+{
 
-body {
-    background-color: #fafafa;
-    height: 100vh;
+					color: #1196BA;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					text-decoration: underline;
 }
+.ST79bf75348049454da2929315c2556bef .cbAuthButtonSeparator
+{
 
-main {
-    height: 100vh;
-    margin: auto;
-    max-width: 935px;
+					width: 6px;
+				
 }
+.ST79bf75348049454da2929315c2556bef .cbAuthCaspioLightboxArrow
+{
 
-a { text-decoration: none; }
-h1 { margin: 20px 0; }
-ul { list-style: none; }
-
-/**
- * Flex rules
- */
-
-.flex {
-    display: -webkit-box;
-    display: -moz-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
+					background: url("<cb:BridgeServer/>/images/dp/authLightboxArrow.png") no-repeat scroll 0 0 transparent;
+					height: 25px;
+					left: 15px;
+					position: relative;
+					top: 11px;
+					width: 30px;
+				
 }
+.ST79bf75348049454da2929315c2556bef .cbAuthDeferredBody
+{
 
-.direction-column {
-    -webkit-box-direction: normal;
-    -webkit-box-orient: vertical;
-    -moz-box-direction: normal;
-    -moz-box-orient: vertical;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
+					margin: 50px 20px;
+				
 }
+.ST79bf75348049454da2929315c2556bef .cbAuthDeferredBodyInnerContainer
+{
 
-.justify-content-center {
-    -webkit-box-pack: center;
-    -moz-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
+					margin: 0 auto;
+				
 }
+.ST79bf75348049454da2929315c2556bef .cbAuthDeferredButtonsCtnr
+{
 
-.align-items-center {
-    -webkit-box-align: center;
-    -moz-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
+					background-color: #F2F2F2;
+					border-top: 1px solid #ACB7BB;
+					bottom: 0px;
+					height: 30px;
+					left: 0px;
+					line-height: 30px;
+					position: absolute;
+					right: 0px;
+					text-align: right;
+				
 }
+.ST79bf75348049454da2929315c2556bef .cbAuthDeferredClsBtn
+{
 
-.flex-wrap {
-    -webkit-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+					height: 11px;
+					right: 10px;
+					top: 10px;
+					width: 11px;
+				
 }
+.ST79bf75348049454da2929315c2556bef .cbAuthDeferredClsBtnContainer
+{
 
-/**
- *
- */
-
-.panel {
-    background-color: white;
-    border: 1px solid #dbdbdb;
-    margin-bottom: 10px;
-    padding: 10px;
+					cursor: pointer;
+					line-height: 0px;
+					position: absolute;
+					right: 11px;
+					top: 11px;
+				
 }
+.ST79bf75348049454da2929315c2556bef .cbAuthDeferredInnerContainer
+{
 
-#auth { max-width: 350px; }
-#mobile { max-width: 454px; }
-
-#mobile img {
-    height: 618px;
+					-moz-box-shadow: 0px 0px 3px 3px #dedede;
+					-webkit-box-shadow: 0px 0px 3px 3px #dedede;
+					background-color: #FFFFFF;
+					border: 1px solid #ACB7BB;
+					box-shadow: 0px 0px 3px 3px #dedede;
+					min-width: 400px;
+					overflow: visible;
+					position: fixed;
+				
 }
+.ST79bf75348049454da2929315c2556bef .cbAuthDeferredOuterContainer
+{
 
-/**
- * Login section
- */
-.login-with-fb,
-form { width: 100%; }
-
-.register,
-form { padding: 30px 20px; }
-
-.login-with-fb { padding: 30px 20px 20px 20px; }
-
-form .sr-only { display: none; }
-
-form input {
-    background-color: #fafafa;
-    border: 1px solid #dbdbdb;
-    border-radius: 3px;
-    color: #808080;
-    margin-bottom: 8px;
-    padding: 10px 10px;
-    width: 100%;
+					background-color: #FFFFFF;
+					left: -10000px;
+					opacity: 0.5;
+					position: fixed;
+					top: -10000px;
+				
 }
+.ST79bf75348049454da2929315c2556bef .cbAuthDeferredTitle
+{
 
-form input::placeholder {
-    color: #808080;
+					background-color: #F2F2F2;
+					border-bottom: 1px solid #ACB7BB;
+					height: 30px;
+					left: 0px;
+					overflow: hidden;
+					position: absolute;
+					right: 0px;
+					top: 0px;
+				
 }
+.ST79bf75348049454da2929315c2556bef .cbAuthDeferredTitleText
+{
 
-form input:focus {
-    border: 1px solid #808080;
-    outline: none;
+					color: #20282B;
+					cursor: default;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					height: 30px;
+					left: 10px;
+					line-height: 30px;
+					overflow: hidden;
+					position: absolute;
+					right: 46px;
+					top: 2px;
+				
 }
+.ST79bf75348049454da2929315c2556bef .cbAuthHorizontalBlockSeparator
+{
 
-form button {
-    background-color: #0095f6;
-    border-radius: 5px;
-    color: #fff;
-    font-weight: bold;
-    height: 35px;
-    margin-top: 10px;
-    width: 100%;
+					display: none;
+				
 }
+.ST79bf75348049454da2929315c2556bef .cbAuthIconsOuterTable
+{
 
-/**
- * Separator login form from login with fb
- */
-.separator span {
-    background-color: #dbdbdb;
-    height: 1px;
-    width: calc(100% - 10px);
+					border: none;
+					margin: 10px 0px;
+					padding: 0px;
+				
 }
+.ST79bf75348049454da2929315c2556bef .cbAuthIconsProviderContainer
+{
 
-.separator .or {
-    color: #808080;
-    font-weight: bold;
+					padding: 10px 15px;
+					text-align: left;
+					vertical-align: middle;
+					width: auto;
+				
 }
+.ST79bf75348049454da2929315c2556bef .cbAuthIconsProviderLink
+{
 
-.separator { padding: 0 20px; }
-.separator span:first-child { margin-right: 10px;}
-.separator span:last-child { margin-left: 10px;}
-
-/**
- * Login with fb section
- */
-.login-with-fb a { 
-    color: #385185; 
+					color: #027FAA;
+					cursor: pointer;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-style: normal;
+					font-weight: 700;
+					margin-right: 10px;
+					padding: 2px;
+					text-decoration: none;
+				
 }
+.ST79bf75348049454da2929315c2556bef .cbAuthIconsProviderLink:hover
+{
 
-.login-with-fb > a { font-size: 12px; }
-.login-with-fb div a { font-weight: bold; }
-.login-with-fb div { margin-bottom: 15px; }
-
-/**
- * Register section
- */
-.register * { font-size: 14px; }
-.register a { 
-    color: #0095f6;
-    font-weight: bold;
+					color: #1196BA;
+					cursor: pointer;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-style: normal;
+					font-weight: 700;
+					margin-right: 10px;
+					padding: 2px;
+					text-decoration: none;
+				
 }
+.ST79bf75348049454da2929315c2556bef .cbAuthIconsProviderLinkImage
+{
 
-.register p { margin-right: 5px; }
-
-/**
- * App download
- */
-.app-download { padding: 15px; }
-.app-download p { padding: 10px 0; }
-.app-download img { 
-    height: 40px; 
-    margin: 0 5px;
+					margin: 5px;
+					text-align: center;
+					vertical-align: middle;
+				
 }
+.ST79bf75348049454da2929315c2556bef .cbAuthLightbox
+{
 
-/**
- * Footer
- */
-footer {
-    margin: 0 auto 30px auto;
-    max-width: 935px;
+					-moz-border-radius: 3px;
+					-moz-box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.3);
+					-webkit-border-radius: 3px;
+					-webkit-box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.3);
+					background-color: #FFFFFF;
+					border-color: #ACB7BB;
+					border-radius: 3px;
+					border-style: solid;
+					border-width: 1px;
+					box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.3);
+					padding: 12px 8px 8px 8px;
+				
 }
-footer ul { margin-bottom: 20px; }
-footer ul li { margin: 0 10px 10px; } 
-footer ul li a { color: #385185; }
-footer .copyright { color: #808080; }
-footer ul li a,
-footer .copyright { 
-    font-weight: bold;
-    text-align: center;
-    text-transform: uppercase;
- }
+.ST79bf75348049454da2929315c2556bef .cbAuthLightboxCloseButton
+{
 
+					cursor: pointer;
+					line-height: 0px;
+					position: absolute;
+					right: 11px;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbAuthLightboxDivider
+{
 
-/**
- * Media queries
- */
+					border-top: 1px solid #ACB7BB;
+					height: 1px;
+					line-height: 0px;
+					margin-bottom: 4px;
+					margin-top: 4px;
+					width: 100%;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbAuthLightboxHeader
+{
 
-@media screen and (max-width: 767px) {
-    main { margin: 30px auto 50px auto; }
-    footer .copyright,
-    footer ul li a { font-size: 13px; }
+					color: #000;
+					text-align: left;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbAuthOpenIdLightboxArrow
+{
+
+					background: url("<cb:BridgeServer/>/images/dp/authLightboxArrow.png") no-repeat scroll 0 0 transparent;
+					height: 25px;
+					left: 15px;
+					position: relative;
+					top: 11px;
+					width: 30px;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbAuthOpenIDTable
+{
+
+					margin: 0 auto;
+					width: auto;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbAuthSidebarActionCell
+{
+
+					background-color: #F2F2F2;
+					border-collapse: collapse;
+					margin: 0px;
+					padding: 0px;
+					text-align: left;
+					vertical-align: middle;
+					white-space: nowrap;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbAuthSidebarActionCell:hover
+{
+
+					background-color: #F7F7F7;
+					border-collapse: collapse;
+					margin: 0px;
+					padding: 0px;
+					text-align: left;
+					vertical-align: middle;
+					white-space: nowrap;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbAuthSidebarActiveActionCell
+{
+
+					background-color: #FFFFFF;
+					color: #027FAA;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					margin: 0px;
+					padding: 0px;
+					text-align: left;
+					vertical-align: middle;
+					white-space: nowrap;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbAuthSidebarActiveActionCell:hover
+{
+
+					background-color: #FFFFFF;
+					color: #1196BA;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					margin: 0px;
+					padding: 0px;
+					text-align: left;
+					vertical-align: middle;
+					white-space: nowrap;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbAuthSidebarCaspioOuterTable
+{
+
+					background: #FFFFFF;
+					border-color: #F2F2F2;
+					border-style: solid;
+					border-width: 1px;
+					height: 280px;
+					margin: 10px 0px 10px 0px;
+					padding: 0px;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbAuthSidebarFooter
+{
+
+					-khtml-border-radius: 0px 0px 3px 3px;
+					-moz-border-radius: 0px 0px 3px 3px;
+					-ms-border-radius: 0px 0px 3px 3px;
+					-o-border-radius: 0px 0px 3px 3px;
+					-webkit-border-radius: 0px 0px 3px 3px;
+					border: 2px solid grey;
+					border-radius: 0px 0px 3px 3px;
+					border-top-width: 1px;
+					color: #20282B;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: bold;
+					padding: 8px;
+					text-align: right;
+					vertical-align: middle;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbAuthSidebarHeader
+{
+
+					-khtml-border-radius: 3px 3px 0px 0px;
+					-moz-border-radius: 3px 3px 0px 0px;
+					-ms-border-radius: 3px 3px 0px 0px;
+					-o-border-radius: 3px 3px 0px 0px;
+					-webkit-border-radius: 3px 3px 0px 0px;
+					background: #F2F2F2;
+					border-bottom: 3px solid grey;
+					border-radius: 3px 3px 0px 0px;
+					color: #20282B;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: bold;
+					padding: 8px;
+					text-align: center;
+					vertical-align: middle;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbAuthSidebarLoginButtonContainer
+{
+
+					padding: 0 6px 0 6px;
+					text-align: left;
+					vertical-align: middle;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbAuthSidebarOuterTable
+{
+
+					background: #FFFFFF;
+					border-color: #F2F2F2;
+					border-style: solid;
+					border-width: 1px;
+					margin: 10px 0px 10px 0px;
+					min-height: 280px;
+					padding: 0;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbAuthSidebarProviderActiveLink
+{
+
+					color: #027FAA;
+					cursor: pointer;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					line-height: 20px;
+					padding: 8px;
+					text-decoration: none;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbAuthSidebarProviderActiveLink:hover
+{
+
+					color: #1196BA;
+					cursor: pointer;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					line-height: 20px;
+					padding: 8px;
+					text-decoration: none;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbAuthSidebarProviderContainer
+{
+
+					background-color: #F2F2F2;
+					padding: 0px;
+					text-align: left;
+					vertical-align: top;
+					width: 135px;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbAuthSidebarProviderContent
+{
+
+					width: 100%;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbAuthSidebarProviderContentWrapper
+{
+
+					background: #FFFFFF;
+					padding: 13px 30px 15px 30px;
+					vertical-align: top;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbAuthSidebarProviderInstruction
+{
+
+					color: #20282B;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					margin: 20px 0px 20px 0px;
+					text-align: left;
+					vertical-align: middle;
+					width: 100%;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbAuthSidebarProviderLink
+{
+
+					color: #027FAA;
+					cursor: pointer;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					line-height: 20px;
+					padding: 8px;
+					text-decoration: none;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbAuthSidebarProviderLink:hover
+{
+
+					color: #1196BA;
+					cursor: pointer;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					line-height: 20px;
+					padding: 8px;
+					text-decoration: none;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbAuthSidebarProviderLinkImage
+{
+
+					margin: 0px 5px 0px 0px;
+					text-align: center;
+					vertical-align: middle;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbAuthSidebarProviderLoginButton
+{
+
+					color: #20282B;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 12px;
+					font-weight: 400;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbAuthSidebarProviderPrompt
+{
+
+					color: #20282B;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					margin: 8px 0px 12px;
+					text-transform: uppercase;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbAuthSidebarProviderWarning
+{
+
+					color: #20282B;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					margin-top: 20px;
+					text-align: left;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbAuthSimpleActionCell
+{
+
+					border: 0px none;
+					margin: 0px;
+					padding: 7px;
+					text-align: center;
+					vertical-align: middle;
+					white-space: normal;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbAuthSimpleActionCell:hover
+{
+
+					border: 0px none;
+					margin: 0px;
+					padding: 7px;
+					text-align: center;
+					vertical-align: middle;
+					white-space: normal;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbAuthSimpleCaspioContainer
+{
+
+					background: #FFFFFF;
+					padding: 5px 30px;
+					text-align: left;
+					vertical-align: middle;
+					width: auto;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbAuthSimpleCaspioOuterTable
+{
+
+					margin: auto;
+					width: 100%;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbAuthSimpleOuterTable
+{
+
+					background: #FFFFFF;
+					border-collapse: collapse;
+					border-color: #F2F2F2;
+					border-style: solid;
+					border-width: 1px;
+					margin: 10px 0px;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbAuthSimpleProviderContainerBottom
+{
+
+					background: #F2F2F2;
+					border-color: #F2F2F2;
+					border-style: solid;
+					border-width: 0px 0px 2px 0px;
+					vertical-align: middle;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbAuthSimpleProviderContainerHorizontal
+{
+
+					background: #F2F2F2;
+					border-color: #F2F2F2;
+					border-style: solid;
+					border-width: 0px 0px 2px 0px;
+					vertical-align: middle;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbAuthSimpleProviderContainerLeft
+{
+
+					background: #F2F2F2;
+					border-color: #F2F2F2;
+					border-style: solid;
+					border-width: 0px 0px 0px 2px;
+					padding-bottom: 8px;
+					vertical-align: middle;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbAuthSimpleProviderContainerRight
+{
+
+					background: #F2F2F2;
+					border-color: #F2F2F2;
+					border-style: solid;
+					border-width: 0px 0px 0px 2px;
+					padding-bottom: 8px;
+					vertical-align: middle;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbAuthSimpleProviderContainerTop
+{
+
+					background: #F2F2F2;
+					border-color: #F2F2F2;
+					border-style: solid;
+					border-width: 0px 0px 2px 0px;
+					vertical-align: middle;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbAuthSimpleProviderContainerVertical
+{
+
+					background: #F2F2F2;
+					border-color: #F2F2F2;
+					border-style: solid;
+					border-width: 0px 0px 0px 2px;
+					vertical-align: middle;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbAuthSimpleProviderInnerTable
+{
+
+					margin: 0px;
+					width: auto;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbAuthSimpleProviderLink
+{
+
+					color: #027FAA;
+					cursor: pointer;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					padding: 0px;
+					text-decoration: none;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbAuthSimpleProviderLink:hover
+{
+
+					color: #1196BA;
+					cursor: pointer;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					padding: 0px;
+					text-decoration: underline;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbAuthSimpleProviderLinkImage
+{
+
+					margin: 0px 0px 0px 0px;
+					text-align: center;
+					vertical-align: middle;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbAuthSimpleProviderPrompt
+{
+
+					color: #20282B;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					margin: 20px 0px 15px;
+					text-transform: uppercase;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbAuthSimpleSignInWithPrompt
+{
+
+					color: #20282B;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 12px;
+					font-weight: 400;
+					margin: 0px 8px;
+					text-transform: uppercase;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbAuthVerticalBlockSeparator
+{
+
+					display: none;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbGenerateTemplatesLink
+{
+
+					color: #027FAA;
+					cursor: pointer;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					padding: 0px;
+					text-decoration: none;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbGenerateTemplatesLink:hover
+{
+
+					color: #1196BA;
+					cursor: pointer;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					padding: 0px;
+					text-decoration: underline;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbBackButton
+{
+
+					-moz-border-radius: 3px;
+					-webkit-border-radius: 3px;
+					background: #FFFFFF;
+					border: 1px solid #027FAA;
+					border-radius: 3px;
+					color: #027FAA;
+					display: inline-block;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 15px;
+					font-weight: 400;
+					height: 40px;
+					margin: 0px 10px;
+					min-width: 180px;
+					padding: 0px 20px;
+					text-align: center;
+					text-transform: uppercase;
+}
+.ST79bf75348049454da2929315c2556bef .cbBackButton:hover
+{
+
+					-moz-border-radius: 3px;
+					-webkit-border-radius: 3px;
+					background: #1196BA;
+					border: 1px solid #027FAA;
+					border-radius: 3px;
+					color: #FFFFFF;
+					cursor: pointer;
+					display: inline-block;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 15px;
+					font-weight: 400;
+					height: 40px;
+					margin: 0px 10px;
+					min-width: 180 px;
+					padding: 0px 20px;
+					text-align: center;
+					text-transform: uppercase;
+}
+.ST79bf75348049454da2929315c2556bef .cbBackButtonContainer
+{
+
+					background: #FFFFFF;
+					padding: 15px 15px 30px 15px;
+					text-align: center;
+					vertical-align: middle;
+}
+.ST79bf75348049454da2929315c2556bef .cbBulkFormAutoCompleteList
+{
+
+					-moz-border-radius: 0px 0px 3px 3px;
+					-moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.07);
+					-webkit-border-radius: 0px 0px 3px 3px;
+					-webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.07);
+					background: #FFFFFF;
+					border-color: #ACB7BB;
+					border-radius: 0px 0px 3px 3px;
+					border-style: solid;
+					border-width: 0px 1px 1px 1px;
+					box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.07);
+					padding: 2px 0px;
+}
+.ST79bf75348049454da2929315c2556bef .cbBulkFormAutoCompleteOption
+{
+
+					background-color: #FFFFFF;
+					padding: 3px 10px;
+}
+.ST79bf75348049454da2929315c2556bef .cbBulkFormAutoCompleteOption_hover
+{
+
+					background-color: #6D8199;
+					cursor: pointer;
+					padding: 3px 10px;
+}
+.ST79bf75348049454da2929315c2556bef .cbBulkFormAutoCompleteOptionRemainder
+{
+
+					color: #20282B;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-style: normal;
+					font-weight: 700;
+}
+.ST79bf75348049454da2929315c2556bef .cbBulkFormAutoCompleteOptionRemainder_hover
+{
+
+					color: #FFFFFF;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-style: normal;
+					font-weight: 700;
+}
+.ST79bf75348049454da2929315c2556bef .cbBulkFormAutoCompleteOptionText
+{
+
+					color: #6A7275;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+}
+.ST79bf75348049454da2929315c2556bef .cbBulkFormAutoCompleteOptionText_hover
+{
+
+					color: #FFFFFF;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+}
+.ST79bf75348049454da2929315c2556bef .cbBulkFormCalendar
+{
+
+					padding-left: 5px;
+}
+.ST79bf75348049454da2929315c2556bef .cbBulkFormCommonError
+{
+
+					
+					color: #ff0000;
+					display: block;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 12px;
+					font-weight: 300;
+					margin: 3px 3px 0px 3px;
+					text-align: left;
+					vertical-align: middle;
+}
+.ST79bf75348049454da2929315c2556bef .cbBulkFormData
+{
+
+					color: #666666;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 12px;
+					font-weight: 300;
+}
+.ST79bf75348049454da2929315c2556bef .cbBulkFormDataCell
+{
+
+					padding: 7px 14px 7px 14px;
+					text-align: left;
+					vertical-align: middle;
+					white-space: normal;
+					width: auto;
+}
+.ST79bf75348049454da2929315c2556bef .cbBulkFormDataCellNumberDate
+{
+
+					padding: 7px 14px 7px 14px;
+					text-align: left;
+					vertical-align: middle;
+					white-space: normal;
+					width: auto;
+}
+.ST79bf75348049454da2929315c2556bef .cbBulkFormDataLink
+{
+
+					color: #26639d;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 12px;
+					font-weight: 300;
+					text-decoration: none;
+}
+.ST79bf75348049454da2929315c2556bef .cbBulkFormDataLink:hover
+{
+
+					color: #26639d;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 12px;
+					font-weight: 300;
+					text-decoration: underline;
+}
+.ST79bf75348049454da2929315c2556bef .cbBulkFormEnableCheckBoxContainer
+{
+
+					display: inline-block;
+					width: 20px;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbBulkFormError
+{
+
+					
+					color: #ff0000;
+					display: block;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 12px;
+					font-weight: 300;
+					margin: 3px 3px 0px 3px;
+					text-align: left;
+					vertical-align: middle;
+}
+.ST79bf75348049454da2929315c2556bef .cbBulkFormErrorMarker
+{
+
+					margin-right: 5px;
+}
+.ST79bf75348049454da2929315c2556bef .cbBulkFormExpandLink
+{
+
+					color: #26639d;
+					cursor: pointer;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 12px;
+					font-weight: 300;
+					text-decoration: none;
+}
+.ST79bf75348049454da2929315c2556bef .cbBulkFormExpandLink:hover
+{
+
+					color: #26639d;
+					cursor: pointer;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 12px;
+					font-weight: 300;
+					text-decoration: none;
+}
+.ST79bf75348049454da2929315c2556bef .cbBulkFormFieldCell
+{
+
+					padding: 7px 14px 7px 14px;
+					text-align: left;
+					vertical-align: top;
+					white-space: nowrap;
+}
+.ST79bf75348049454da2929315c2556bef .cbBulkFormFile
+{
+
+					-moz-border-radius: 1px;
+					-moz-box-sizing: border-box;
+					-webkit-border-radius: 1px;
+					-webkit-box-sizing: border-box;
+					background: #FFFFFF;
+					border-color: #e9e9e9;
+					border-radius: 1px;
+					border-style: solid;
+					border-width: 1px;
+					box-sizing: border-box;
+					color: #333333;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 12px;
+					font-weight: 300;
+					padding: 5px 6px;
+}
+.ST79bf75348049454da2929315c2556bef .cbBulkFormHintLabel
+{
+
+					color: #777777;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 11px;
+					font-style: normal;
+					font-weight: normal;
+					letter-spacing: 1px;
+					padding: 0px 6px;
+					text-decoration: none;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbBulkFormHintLabel:hover
+{
+
+					color: #777777;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 11px;
+					font-style: normal;
+					font-weight: normal;
+					letter-spacing: 1px;
+					padding: 0px 6px;
+					text-decoration: none;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbBulkFormHintLabelImage
+{
+
+					border: none;
+					vertical-align: bottom;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbBulkFormHintTipContainer
+{
+
+					-khtml-opacity: 0.85;
+					-moz-border-radius: 2px;
+					-moz-opacity: 0.85;
+					-webkit-border-radius: 2px;
+					background-color: #000000;
+					border-color: #111111;
+					border-radius: 2px;
+					border-style: solid;
+					border-width: 1px;
+					opacity: 0.85;
+					padding: 4px 8px;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbBulkFormHintTipText
+{
+
+					color: #FFFFFF;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 11px;
+					font-style: normal;
+					text-decoration: none;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbBulkFormHTMLBlockContainer
+{
+
+					padding: 7px 14px 7px 14px;
+					text-align: left;
+					vertical-align: top;
+}
+.ST79bf75348049454da2929315c2556bef .cbBulkFormLabel
+{
+
+					color: #444444;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 12px;
+					font-weight: bold;
+}
+.ST79bf75348049454da2929315c2556bef .cbBulkFormLabelCell
+{
+
+					padding: 7px 14px 0px 14px;
+					text-align: left;
+					vertical-align: top;
+					white-space: nowrap;
+					width: auto;
+}
+.ST79bf75348049454da2929315c2556bef .cbBulkFormLabelError
+{
+
+					color: #444444;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 12px;
+					font-weight: bold;
+}
+.ST79bf75348049454da2929315c2556bef .cbBulkFormLabelRequired
+{
+
+					color: #444444;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 12px;
+					font-weight: bold;
+}
+.ST79bf75348049454da2929315c2556bef .cbBulkFormNestedTable
+{
+
+					border: none;
+					border-collapse: collapse;
+					padding: 0px;
+}
+.ST79bf75348049454da2929315c2556bef .cbBulkFormNestedTableCellspacing
+{
+
+					border-spacing: 0px;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbBulkFormNestedTableContainer
+{
+
+					padding: 0px;
+					text-align: left;
+					vertical-align: top;
+}
+.ST79bf75348049454da2929315c2556bef .cbBulkFormPassword
+{
+
+					-moz-border-radius: 1px;
+					-moz-box-sizing: border-box;
+					-webkit-border-radius: 1px;
+					-webkit-box-sizing: border-box;
+					background: #FFFFFF;
+					border-color: #e9e9e9;
+					border-radius: 1px;
+					border-style: solid;
+					border-width: 1px;
+					box-sizing: border-box;
+					color: #333333;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 12px;
+					font-weight: 300;
+					padding: 5px 6px;
+}
+.ST79bf75348049454da2929315c2556bef .cbBulkFormPassword::-webkit-input-placeholder
+{
+
+					color: #888888;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbBulkFormPassword:-moz-placeholder
+{
+
+					color: #888888;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbBulkFormPassword::-moz-placeholder
+{
+
+					color: #888888;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbBulkFormPassword:-ms-input-placeholder
+{
+
+					color: #888888;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbBulkFormRequiredMarker
+{
+
+					
+					color: #FF0000;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 12px;
+					margin-left: 2px;
+}
+.ST79bf75348049454da2929315c2556bef .cbBulkFormSelect
+{
+
+					-moz-border-radius: 1px;
+					-moz-box-sizing: border-box;
+					-webkit-border-radius: 1px;
+					-webkit-box-sizing: border-box;
+					background: #FFFFFF;
+					border-color: #e9e9e9;
+					border-radius: 1px;
+					border-style: solid;
+					border-width: 1px;
+					box-sizing: border-box;
+					color: #333333;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 12px;
+					font-weight: 300;
+					padding: 5px 6px;
+}
+.ST79bf75348049454da2929315c2556bef .cbBulkFormTable
+{
+
+					background: #FFFFFF;
+					border-collapse: collapse;
+					margin: 0px;
+					width: 100%;
+}
+.ST79bf75348049454da2929315c2556bef .cbBulkFormTableCellspacing
+{
+
+					border-spacing: 0px;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbBulkFormTableEvenRow
+{
+
+					background-color: transparent;
+}
+.ST79bf75348049454da2929315c2556bef .cbBulkFormTableEvenRow:hover
+{
+
+					background-color: transparent;
+}
+.ST79bf75348049454da2929315c2556bef .cbBulkFormTableRow
+{
+
+					background-color: transparent;
+}
+.ST79bf75348049454da2929315c2556bef .cbBulkFormTableRow:hover
+{
+
+					background-color: transparent;
+}
+.ST79bf75348049454da2929315c2556bef .cbBulkFormTextArea
+{
+
+					-moz-border-radius: 1px;
+					-moz-box-sizing: border-box;
+					-webkit-border-radius: 1px;
+					-webkit-box-sizing: border-box;
+					background: #FFFFFF;
+					border-color: #e9e9e9;
+					border-radius: 1px;
+					border-style: solid;
+					border-width: 1px;
+					box-sizing: border-box;
+					color: #333333;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 12px;
+					font-weight: 300;
+					padding: 5px 6px;
+					resize: vertical;
+}
+.ST79bf75348049454da2929315c2556bef .cbBulkFormTextArea::-webkit-input-placeholder
+{
+
+					color: #888888;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbBulkFormTextArea:-moz-placeholder
+{
+
+					color: #888888;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbBulkFormTextArea::-moz-placeholder
+{
+
+					color: #888888;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbBulkFormTextArea:-ms-input-placeholder
+{
+
+					color: #888888;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbBulkFormTextAreaHint
+{
+
+					color: #777777;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 11px;
+					font-weight: 300;
+					padding: 0px 2px 8px;
+					text-align: right;
+}
+.ST79bf75348049454da2929315c2556bef .cbBulkFormTextAreaHintContainer
+{
+
+					display: table;
+					width: auto;
+}
+.ST79bf75348049454da2929315c2556bef .cbBulkFormTextField
+{
+
+					-moz-border-radius: 1px;
+					-moz-box-sizing: border-box;
+					-webkit-border-radius: 1px;
+					-webkit-box-sizing: border-box;
+					background: #FFFFFF;
+					border-color: #e9e9e9;
+					border-radius: 1px;
+					border-style: solid;
+					border-width: 1px;
+					box-sizing: border-box;
+					color: #333333;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 12px;
+					font-weight: 300;
+					padding: 5px 6px;
+}
+.ST79bf75348049454da2929315c2556bef .cbBulkFormTextField::-webkit-input-placeholder
+{
+
+					color: #888888;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbBulkFormTextField:-moz-placeholder
+{
+
+					color: #888888;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbBulkFormTextField::-moz-placeholder
+{
+
+					color: #888888;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbBulkFormTextField:-ms-input-placeholder
+{
+
+					color: #888888;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbChartContainer
+{
+
+					font-family: Arial, Helvetica, sans-serif;
+					margin: 15px 0px;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbConfirmationMessages
+{
+
+					color: #20282B;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					margin: 3px 3px 3px 3px;
+					text-align: left;
+					vertical-align: middle;
+}
+.ST79bf75348049454da2929315c2556bef .cbContainerTextAlignCenter
+{
+
+					text-align: center;
+}
+.ST79bf75348049454da2929315c2556bef .cbContainerTextAlignLeft
+{
+
+					text-align: left;
+}
+.ST79bf75348049454da2929315c2556bef .cbContainerTextAlignRight
+{
+
+					text-align: right;
+}
+.ST79bf75348049454da2929315c2556bef .cbCursorPointer
+{
+
+					cursor: pointer;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbDeleteButton
+{
+
+					-moz-border-radius: 3px;
+					-webkit-border-radius: 3px;
+					background: #FFFFFF;
+					border: 1px solid #027FAA;
+					border-radius: 3px;
+					color: #027FAA;
+					display: inline-block;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 15px;
+					font-weight: 400;
+					height: 40px;
+					margin: 0px 10px;
+					min-width: 180px;
+					padding: 0px 20px;
+					text-align: center;
+					text-transform: uppercase;
+}
+.ST79bf75348049454da2929315c2556bef .cbDeleteButton:hover
+{
+
+					-moz-border-radius: 3px;
+					-webkit-border-radius: 3px;
+					background: #1196BA;
+					border: 1px solid #027FAA;
+					border-radius: 3px;
+					color: #FFFFFF;
+					cursor: pointer;
+					display: inline-block;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 15px;
+					font-weight: 400;
+					height: 40px;
+					margin: 0px 10px;
+					min-width: 180 px;
+					padding: 0px 20px;
+					text-align: center;
+					text-transform: uppercase;
+}
+.ST79bf75348049454da2929315c2556bef .cbDeleteButtonContainer
+{
+
+					background: #FFFFFF;
+					padding: 15px 15px 30px 15px;
+					text-align: center;
+					vertical-align: middle;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormActionsContainer
+{
+
+					padding: 5px 0px;
+					white-space: nowrap;
+					width: 100%;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormActionsContainerCellspacing
+{
+
+					border-spacing: 0px;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbFormAudioCaptcha
+{
+
+					padding-left: 2px;
+					vertical-align: top;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormAudioPlugin
+{
+
+					padding-left: 2px;
+					vertical-align: top;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormAuthDataCell
+{
+
+					padding: 7px 15px 7px 15px;
+					text-align: left;
+					vertical-align: middle;
+					white-space: normal;
+					width: auto;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormAuthFieldCell
+{
+
+					padding: 7px 15px 7px 15px;
+					text-align: left;
+					vertical-align: top;
+					white-space: nowrap;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormAuthLabelCell
+{
+
+					padding: 9px 15px 0px 15px;
+					text-align: left;
+					vertical-align: top;
+					white-space: normal;
+					width: auto;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormAuthTable
+{
+
+					border-collapse: collapse;
+					width: auto;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormAuthTableCellspacing
+{
+
+					border-spacing: 0px;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbFormAutoCompleteList
+{
+
+					-moz-border-radius: 0px 0px 3px 3px;
+					-moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.07);
+					-webkit-border-radius: 0px 0px 3px 3px;
+					-webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.07);
+					background: #FFFFFF;
+					border-color: #ACB7BB;
+					border-radius: 0px 0px 3px 3px;
+					border-style: solid;
+					border-width: 0px 1px 1px 1px;
+					box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.07);
+					padding: 2px 0px;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormAutoCompleteOption
+{
+
+					background-color: #FFFFFF;
+					padding: 3px 10px;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormAutoCompleteOption_hover
+{
+
+					background-color: #6D8199;
+					cursor: pointer;
+					padding: 3px 10px;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormAutoCompleteOptionRemainder
+{
+
+					color: #20282B;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-style: normal;
+					font-weight: 700;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormAutoCompleteOptionRemainder_hover
+{
+
+					color: #FFFFFF;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-style: normal;
+					font-weight: 700;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormAutoCompleteOptionText
+{
+
+					color: #6A7275;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormAutoCompleteOptionText_hover
+{
+
+					color: #FFFFFF;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormBackToPivotActionContainer
+{
+
+					padding: 0px;
+					padding-left: 10px;
+					text-align: left;
+					vertical-align: middle;
+					white-space: nowrap;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormBackToPivotActionLink
+{
+
+					color: #027FAA;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					text-decoration: none;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormBackToPivotActionLink:hover
+{
+
+					color: #1196BA;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					text-decoration: underline;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormBackToReportActionContainer
+{
+
+					padding: 0px;
+					padding-left: 10px;
+					text-align: left;
+					vertical-align: middle;
+					white-space: nowrap;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormBackToReportActionLink
+{
+
+					color: #1196BA;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					text-decoration: none;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormBackToReportActionLink:hover
+{
+
+					color: #1196BA;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					text-decoration: underline;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormCalculatedField
+{
+
+					color: #20282B;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					white-space: pre-wrap;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormCalendar
+{
+
+					padding-left: 5px;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormCalendarPickerDate
+{
+
+					background: #fff;
+					font-family: Arial;
+					font-size: 13px;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormCalendarPickerMonthDay
+{
+
+					color: #333333;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormCalendarPickerMonthDay:hover
+{
+
+					background-color: #e8e8e8;
+					color: #333333;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormCalendarPickerMonthItem
+{
+
+					background-color: transparent;
+					color: #000000;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormCalendarPickerNavBar
+{
+
+					background: #027FAA;
+					color: #fff;
+					fill: #fff;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormCalendarPickerNavBarItem
+{
+
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 13px;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormCalendarPickerNavBarItem:hover
+{
+
+					background: rgba(0,0,0,0.05);
+}
+.ST79bf75348049454da2929315c2556bef .cbFormCalendarPickerNextMonthDay
+{
+
+					color: #C6C6C6;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormCalendarPickerPrevMonthDay
+{
+
+					color: #C6C6C6;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormCalendarPickerSelectedDate
+{
+
+					background: #027FAA;
+					color: #fff;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormCalendarPickerTodayDate
+{
+
+					border: 1px solid #027FAA;
+					color: #333333;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormCalendarPickerTodayLabel
+{
+
+					color: #027FAA;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormCalendarPickerTodaySection
+{
+
+					background: #fff;
+					border-top: 1px solid rgba(151, 151, 151, 0.26);
+					color: #777777;
+					font-family: Arial;
+					font-size: 13px;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormCalendarPickerTodaySection:hover
+{
+
+					color: #027FAA;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormCalendarPickerWeekDayContainer
+{
+
+					background: transparent;
+					border-bottom: 1px solid rgba(151, 151, 151, 0.26);
+					color: #777777;
+					font-size: 10px;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormCalendarPickerWeekDayItem
+{
+
+}
+.ST79bf75348049454da2929315c2556bef .cbFormChargeOffConfirmation
+{
+
+					color: #20282B;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					padding: 5px 0px;
+					text-align: center;
+					vertical-align: middle;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbFormFieldSet
+{
+
+				border: 0;
+				margin: 0;
+				padding: 0;
+				min-inline-size: unset;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbFormCommonError
+{
+
+					
+					color: #EB2A00;
+					display: block;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 16px;
+					font-weight: 400;
+					margin: 10px 0px 10px 10px;
+					text-align: left;
+					vertical-align: middle;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormComputedFieldPreloader
+{
+
+					border-color: #F3F3F3;
+					border-radius: 50%;
+					border-style: solid;
+					border-top-color: #757575;
+					border-width: 2px;
+					height: 15px;
+					position: absolute;
+					width: 15px;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormData
+{
+
+					color: #20282B;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormDataCell
+{
+
+					padding: 12px 15px 2px 15px;
+					text-align: left;
+					vertical-align: middle;
+					white-space: normal;
+					width: auto;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormDataCellNumberDate
+{
+
+					padding: 12px 15px 2px 15px;
+					text-align: left;
+					vertical-align: middle;
+					white-space: normal;
+					width: auto;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormDataLink, .ST79bf75348049454da2929315c2556bef section[class^="cbFormSection"] .cbFormData a
+{
+
+					color: #027FAA;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					text-decoration: none;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormDataLink:hover, .ST79bf75348049454da2929315c2556bef section[class^="cbFormSection"] .cbFormData a:hover
+{
+
+					color: #1196BA;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					text-decoration: underline;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormError
+{
+
+					
+					color: #EB2A00;
+					display: block;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					margin: 5px 0px 0px 0px;
+					text-align: left;
+					vertical-align: middle;
+					white-space: normal;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormErrorField
+{
+
+					border-color: #EB2A00;
+					border-style: solid;
+					border-width: 1px;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormErrorMarker
+{
+
+					color: #EB2A00;
+					display: inline-block;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 12px;
+					font-weight: 400;
+					margin: 0px 5px 0px 0px;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormExpandLink
+{
+
+					color: #027FAA;
+					cursor: pointer;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					text-decoration: none;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormExpandLink:hover
+{
+
+					color: #1196BA;
+					cursor: pointer;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					text-decoration: none;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormFieldCell
+{
+
+					padding: 7px 15px 7px 15px;
+					text-align: left;
+					vertical-align: middle;
+					white-space: nowrap;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormFile
+{
+
+					background: #FFFFFF;
+					color: #20282B;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					padding: 6px 8px;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormHintLabel
+{
+
+					color: #333333;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-style: normal;
+					font-weight: 400;
+					letter-spacing: 1px;
+					padding: 0px 6px;
+					text-decoration: none;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbFormHintLabel:hover
+{
+
+					color: #333333;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-style: normal;
+					font-weight: 400;
+					letter-spacing: 1px;
+					padding: 0px 6px;
+					text-decoration: none;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbFormHintLabelImage
+{
+
+					border: none;
+					vertical-align: bottom;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbFormHintTipContainer
+{
+
+					-khtml-opacity: 1;
+					-moz-border-radius: 3px;
+					-moz-opacity: 1;
+					-webkit-border-radius: 3px;
+					background-color: #484C50;
+					border-radius: 3px;
+					opacity: 1;
+					padding: 4px 8px;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbFormHintTipText
+{
+
+					color: #FFFFFF;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 12px;
+					font-style: normal;
+					text-decoration: none;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbFormJumpToTextField
+{
+
+					-moz-border-radius: 3px;
+					-webkit-border-radius: 3px;
+					background: #FFFFFF;
+					border-color: #ACB7BB;
+					border-radius: 3px;
+					border-style: solid;
+					border-width: 1px;
+					color: #20282B;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 13px;
+					font-weight: 400;
+					padding: 3px;
+					text-align: right;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormLabel
+{
+
+					color: #333333;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 700;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormLabelCell
+{
+
+					padding: 14px 15px 0px 15px;
+					text-align: left;
+					vertical-align: top;
+					white-space: normal;
+					width: auto;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormLabelError
+{
+
+					color: #EB2A00;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-style: normal;
+					font-weight: 700;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormLabelRequired
+{
+
+					color: #333333;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 700;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormListItem
+{
+
+					margin: 0px 0px 1px 0px;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbFormMultiSelect
+{
+
+					-moz-border-radius: 3px;
+					-moz-box-sizing: border-box;
+					-webkit-border-radius: 3px;
+					-webkit-box-sizing: border-box;
+					border-color: #ACB7BB;
+					border-radius: 3px;
+					border-style: solid;
+					border-width: 1px;
+					box-sizing: border-box;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormMultiSelectField
+{
+
+					cursor: default;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					padding: 3px 10px;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormMultiSelectText
+{
+
+					background: #FFFFFF;
+					color: #20282B;
+					cursor: pointer;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					padding: 3px 10px;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormMultiSelectText_hover
+{
+
+					background: #6D8199;
+					color: #FFFFFF;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormNavigationCell
+{
+
+					border: none;
+					padding: 4px 8px;
+					text-align: center;
+					vertical-align: middle;
+					white-space: nowrap;
+					width: auto;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormNavigationDDown
+{
+
+					color: #027FAA;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 13px;
+					font-weight: 400;
+					text-decoration: none;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormNavigationLinks
+{
+
+					
+					color: #027FAA;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 13px;
+					font-weight: 400;
+					margin: 0 5px;
+					text-decoration: none;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormNavigationLinks:hover
+{
+
+					color: #1196BA;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 13px;
+					font-weight: 400;
+					margin: 0 5px;
+					text-decoration: underline;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormNavigationMessage
+{
+
+					color: #20272B;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormNavigationTable
+{
+
+					margin: 0px;
+					white-space: nowrap;
+					width: 100%;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormNavigationTableCellspacing
+{
+
+					border-spacing: 0px;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbFormNestedTable
+{
+
+					border: none;
+					border-collapse: collapse;
+					padding: 0px;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormNestedTableCellspacing
+{
+
+					border-spacing: 0px;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbFormNestedTableContainer
+{
+
+					padding: 0px;
+					text-align: left;
+					vertical-align: top;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormOrderedList
+{
+
+					margin: 0px 4px 0px 7px;
+					padding-left: 10px;
+					white-space: nowrap;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbFormOuterTable
+{
+
+}
+.ST79bf75348049454da2929315c2556bef .cbFormPassword
+{
+
+					-moz-border-radius: 3px;
+					-moz-box-sizing: border-box;
+					-webkit-border-radius: 3px;
+					-webkit-box-sizing: border-box;
+					background: #FFFFFF;
+					border-color: #ACB7BB;
+					border-radius: 3px;
+					border-style: solid;
+					border-width: 1px;
+					box-sizing: border-box;
+					color: #20282B;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					padding: 6px 8px;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormPassword::-webkit-input-placeholder
+{
+
+					color: #AAAAAA;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-style: normal;
+					font-weight: 400;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbFormPassword:-moz-placeholder
+{
+
+					color: #AAAAAA;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-style: normal;
+					font-weight: 400;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbFormPassword::-moz-placeholder
+{
+
+					color: #AAAAAA;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-style: normal;
+					font-weight: 400;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbFormPassword:-ms-input-placeholder
+{
+
+					color: #AAAAAA;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-style: normal;
+					font-weight: 400;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbFormPaymentProcessor
+{
+
+					color: #20282B;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormRadioButtonLabelDisabled
+{
+
+					color: #CCCCCC;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbFormRequiredMarker
+{
+
+					
+					color: #333333;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400px;
+					margin-left: 7px;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormSearchAgainContainer
+{
+
+					padding: 0px;
+					padding-left: 10px;
+					text-align: left;
+					vertical-align: middle;
+					white-space: nowrap;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormSearchAgainLink
+{
+
+					color: #027FAA;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					text-decoration: none;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormSearchAgainLink:hover
+{
+
+					color: #1196BA;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					text-decoration: underline;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormDownloadDetailsLink
+{
+
+					color: #027FAA;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					text-decoration: none;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormDownloadDetailsLink:hover
+{
+
+					color: #1196BA;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					text-decoration: underline;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormDownloadDetailsContainer
+{
+
+					border: none;
+					margin: 0px;
+					padding: 0px 3px 0px 3px;
+					text-align: left;
+					vertical-align: middle;
+					white-space: nowrap;
+					width: auto;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormSelect
+{
+
+					-moz-border-radius: 3px;
+					-moz-box-sizing: border-box;
+					-webkit-border-radius: 3px;
+					-webkit-box-sizing: border-box;
+					background: #FFFFFF;
+					border-color: #ACB7BB;
+					border-radius: 3px;
+					border-style: solid;
+					border-width: 1px;
+					box-sizing: border-box;
+					color: #20282B;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					padding: 5px 6px;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormTable
+{
+
+					background: #FFFFFF;
+					margin: 0px;
+					width: 100%;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormTableCellspacing
+{
+
+					border-spacing: 0px;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbFormTableEvenRow
+{
+
+					background-color: #FFFFFF;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormTableEvenRow:hover
+{
+
+					background-color: #FFFFFF;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormTableRow
+{
+
+					background-color: #FFFFFF;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormTableRow:hover
+{
+
+					background-color: #FFFFFF;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormTextArea
+{
+
+					-moz-border-radius: 3px;
+					-moz-box-sizing: border-box;
+					-webkit-border-radius: 3px;
+					-webkit-box-sizing: border-box;
+					background: #FFFFFF;
+					border-color: #ACB7BB;
+					border-radius: 3px;
+					border-style: solid;
+					border-width: 1px;
+					box-sizing: border-box;
+					color: #20282B;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					padding: 6px 8px;
+					resize: vertical;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormTextArea::-webkit-input-placeholder
+{
+
+					color: #AAAAAA;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-style: normal;
+					font-weight: 400;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbFormTextArea:-moz-placeholder
+{
+
+					color: #AAAAAA;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-style: normal;
+					font-weight: 400;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbFormTextArea::-moz-placeholder
+{
+
+					color: #AAAAAA;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-style: normal;
+					font-weight: 400;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbFormTextArea:-ms-input-placeholder
+{
+
+					color: #AAAAAA;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-style: normal;
+					font-weight: 400;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbFormTextAreaHint
+{
+
+					color: #20282B;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 12px;
+					font-weight: 400;
+					padding: 0px 2px 8px;
+					text-align: right;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormTextAreaHintContainer
+{
+
+					display: table;
+					width: auto;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormTextField
+{
+
+					-moz-border-radius: 3px;
+					-moz-box-sizing: border-box;
+					-webkit-border-radius: 3px;
+					-webkit-box-sizing: border-box;
+					background: #FFFFFF;
+					border-color: #ACB7BB;
+					border-radius: 3px;
+					border-style: solid;
+					border-width: 1px;
+					box-sizing: border-box;
+					color: #20282B;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					padding: 6px 8px;
+}
+.ST79bf75348049454da2929315c2556bef .cbFormTextField::-webkit-input-placeholder
+{
+
+					color: #AAAAAA;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-style: normal;
+					font-weight: 400;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbFormTextField:-moz-placeholder
+{
+
+					color: #AAAAAA;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-style: normal;
+					font-weight: 400;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbFormTextField::-moz-placeholder
+{
+
+					color: #AAAAAA;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-style: normal;
+					font-weight: 400;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbFormTextField:-ms-input-placeholder
+{
+
+					color: #AAAAAA;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-style: normal;
+					font-weight: 400;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbFormUnorderedList
+{
+
+					margin: 0px 4px 0px 7px;
+					padding-left: 10px;
+					white-space: nowrap;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbHTMLBlockContainer
+{
+
+					background: #FFFFFF;
+					color: #20282B;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					padding: 7px 15px 0px 15px;
+					text-align: left;
+					vertical-align: top;
+}
+.ST79bf75348049454da2929315c2556bef .cbInlineAddFormButton
+{
+
+					-moz-border-radius: 3px;
+					-webkit-border-radius: 3px;
+					background: #027FAA;
+					border: none;
+					border-radius: 3px;
+					color: #FFFFFF;
+					display: inline-block;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 15px;
+					font-weight: 400;
+					height: 40px;
+					margin: 0px 10px;
+					min-width: 180px;
+					padding: 0px 20px;
+					text-align: center;
+					text-transform: uppercase;
+}
+.ST79bf75348049454da2929315c2556bef .cbInlineAddFormButton:hover
+{
+
+					-moz-border-radius: 3px;
+					-webkit-border-radius: 3px;
+					background: #1196BA;
+					border: none;
+					border-radius: 3px;
+					color: #FFFFFF;
+					cursor: pointer;
+					display: inline-block;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 15px;
+					font-weight: 400;
+					height: 40px;
+					margin: 0px 10px;
+					min-width: 180 px;
+					padding: 0px 20px;
+					text-align: center;
+					text-transform: uppercase;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbInlineAddFormButtonContainer
+{
+
+					background: #FFFFFF;
+					padding: 15px 15px 30px 15px;
+					text-align: center;
+					vertical-align: middle;
+}
+.ST79bf75348049454da2929315c2556bef .cbLoginButton
+{
+
+					-moz-border-radius: 3px;
+					-webkit-border-radius: 3px;
+					background: #027FAA;
+					border: none;
+					border-radius: 3px;
+					color: #FFFFFF;
+					display: inline-block;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 15px;
+					font-weight: 400;
+					height: 40px;
+					margin: 0px 10px;
+					min-width: 180px;
+					padding: 0px 20px;
+					text-align: center;
+					text-transform: uppercase;
+}
+.ST79bf75348049454da2929315c2556bef .cbLoginButton:hover
+{
+
+					-moz-border-radius: 3px;
+					-webkit-border-radius: 3px;
+					background: #1196BA;
+					border: none;
+					border-radius: 3px;
+					color: #FFFFFF;
+					cursor: pointer;
+					display: inline-block;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 15px;
+					font-weight: 400;
+					height: 40px;
+					margin: 0px 10px;
+					min-width: 180 px;
+					padding: 0px 20px;
+					text-align: center;
+					text-transform: uppercase;
+}
+.ST79bf75348049454da2929315c2556bef .cbLoginButtonContainer
+{
+
+					background: #FFFFFF;
+					padding: 15px 15px 30px 15px;
+					text-align: center;
+					vertical-align: middle;
+}
+.ST79bf75348049454da2929315c2556bef .cbPasswordBarFair
+{
+
+					background-color: #FFAD00;
+					height: 100%;
+					width: 50%;
+}
+.ST79bf75348049454da2929315c2556bef .cbPasswordBarGood
+{
+
+					background-color: #9CC159;
+					height: 100%;
+					width: 75%;
+}
+.ST79bf75348049454da2929315c2556bef .cbPasswordBarStrong
+{
+
+					background-color: #00B500;
+					height: 100%;
+					width: 100%;
+}
+.ST79bf75348049454da2929315c2556bef .cbPasswordBarWeak
+{
+
+					background-color: #E91111;
+					height: 100%;
+					width: 25%;
+}
+.ST79bf75348049454da2929315c2556bef .cbPasswordRecoveryButton
+{
+
+					-moz-border-radius: 3px;
+					-webkit-border-radius: 3px;
+					background: #027FAA;
+					border: none;
+					border-radius: 3px;
+					color: #FFFFFF;
+					display: inline-block;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 15px;
+					font-weight: 400;
+					height: 40px;
+					margin: 0px 10px;
+					min-width: 180px;
+					padding: 0px 20px;
+					text-align: center;
+					text-transform: uppercase;
+}
+.ST79bf75348049454da2929315c2556bef .cbPasswordRecoveryButton:hover
+{
+
+					-moz-border-radius: 3px;
+					-webkit-border-radius: 3px;
+					background: #1196BA;
+					border: none;
+					border-radius: 3px;
+					color: #FFFFFF;
+					cursor: pointer;
+					display: inline-block;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 15px;
+					font-weight: 400;
+					height: 40px;
+					margin: 0px 10px;
+					min-width: 180 px;
+					padding: 0px 20px;
+					text-align: center;
+					text-transform: uppercase;
+}
+.ST79bf75348049454da2929315c2556bef .cbPasswordRecoveryButtonContainer
+{
+
+					background: #FFFFFF;
+					padding: 15px 15px 30px 15px;
+					text-align: center;
+					vertical-align: middle;
+}
+.ST79bf75348049454da2929315c2556bef .cbPasswordResetButton
+{
+
+					-moz-border-radius: 3px;
+					-webkit-border-radius: 3px;
+					background: #027FAA;
+					border: none;
+					border-radius: 3px;
+					color: #FFFFFF;
+					display: inline-block;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 15px;
+					font-weight: 400;
+					height: 40px;
+					margin: 0px 10px;
+					min-width: 180px;
+					padding: 0px 20px;
+					text-align: center;
+					text-transform: uppercase;
+}
+.ST79bf75348049454da2929315c2556bef .cbPasswordResetButton:hover
+{
+
+					-moz-border-radius: 3px;
+					-webkit-border-radius: 3px;
+					background: #1196BA;
+					border: none;
+					border-radius: 3px;
+					color: #FFFFFF;
+					cursor: pointer;
+					display: inline-block;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 15px;
+					font-weight: 400;
+					height: 40px;
+					margin: 0px 10px;
+					min-width: 180 px;
+					padding: 0px 20px;
+					text-align: center;
+					text-transform: uppercase;
+}
+.ST79bf75348049454da2929315c2556bef .cbPasswordResetButtonContainer
+{
+
+					background: #FFFFFF;
+					padding: 15px 15px 30px 15px;
+					text-align: center;
+					vertical-align: middle;
+}
+.ST79bf75348049454da2929315c2556bef .cbPasswordStrength
+{
+
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 11px;
+					font-style: normal;
+					font-weight: 400;
+					padding: 3px 0px 0px 0px;
+					text-align: right;
+}
+.ST79bf75348049454da2929315c2556bef .cbPasswordStrengthBar
+{
+
+					height: 100%;
+}
+.ST79bf75348049454da2929315c2556bef .cbPasswordStrengthBarContainer
+{
+
+					background-color: #EDEDED;
+					height: 4px;
+					margin: 0px 0px 2px 0px;
+					width: 100%;
+}
+.ST79bf75348049454da2929315c2556bef .cbPasswordTextFair
+{
+
+					color: #FFAD00;
+}
+.ST79bf75348049454da2929315c2556bef .cbPasswordTextGood
+{
+
+					color: #9CC159;
+}
+.ST79bf75348049454da2929315c2556bef .cbPasswordTextStrong
+{
+
+					color: #00B500;
+}
+.ST79bf75348049454da2929315c2556bef .cbPasswordTextWeak
+{
+
+					color: #E91111;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetActionCell
+{
+
+					padding: 9px 12px;
+					text-align: left;
+					vertical-align: top;
+					white-space: nowrap;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetActionsContainer
+{
+
+					
+					background-color: #FFFFFF;
+					margin: 0px;
+					padding: 6px 10px;
+					width: 100%;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetActionsContainerCellspacing
+{
+
+					border-spacing: 0px;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetActionsLinks
+{
+
+					color: #027FAA;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					text-decoration: none;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetActionsLinks:hover
+{
+
+					color: #1196BA;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					text-decoration: underline;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetAddButton
+{
+
+					-moz-border-radius: 3px;
+					-webkit-border-radius: 3px;
+					background: #027FAA;
+					border: none;
+					border-radius: 3px;
+					color: #FFFFFF;
+					display: inline-block;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 12px;
+					font-weight: 400;
+					height: 25px;
+					margin: 0px 3px;
+					min-width: 70px;
+					padding: 4px 10px;
+					text-align: center;
+					text-transform: uppercase;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetAddButton:hover
+{
+
+					-moz-border-radius: 3px;
+					-webkit-border-radius: 3px;
+					background: #1196BA;
+					border: none;
+					border-radius: 3px;
+					color: #FFFFFF;
+					cursor: pointer;
+					display: inline-block;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 12px;
+					font-weight: 400;
+					height: 25px;
+					margin: 0px 3px;
+					min-width: 70px;
+					padding: 4px 10px;
+					text-align: center;
+					text-transform: uppercase;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultGenerateTemplatesLink, .ST79bf75348049454da2929315c2556bef table > thead + tbody > tr > td[class*="cbResultSetData"][class*="cbResultSetTableCell"] a.cbResultGenerateTemplatesLink
+{
+
+					color: #027FAA;
+					cursor: pointer;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					padding: 0px;
+					text-decoration: none;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbResultGenerateTemplatesLink:hover, .ST79bf75348049454da2929315c2556bef table > thead + tbody > tr > td[class*="cbResultSetData"][class*="cbResultSetTableCell"] a.cbResultGenerateTemplatesLink:hover
+{
+
+					color: #1196BA;
+					cursor: pointer;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					padding: 0px;
+					text-decoration: underline;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetAutoCompleteList
+{
+
+					-moz-border-radius: 0px 0px 3px 3px;
+					-moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.07);
+					-webkit-border-radius: 0px 0px 3px 3px;
+					-webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.07);
+					background: #FFFFFF;
+					border-color: #ACB7BB;
+					border-radius: 0px 0px 3px 3px;
+					border-style: solid;
+					border-width: 0px 1px 1px 1px;
+					box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.07);
+					padding: 2px 0px;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetAutoCompleteOption
+{
+
+					background-color: #FFFFFF;
+					padding: 3px 8px;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetAutoCompleteOption_hover
+{
+
+					background-color: #6D8199;
+					cursor: pointer;
+					padding: 3px 8px;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetAutoCompleteOptionRemainder
+{
+
+					color: #20282B;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-style: normal;
+					font-weight: 700;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetAutoCompleteOptionRemainder_hover
+{
+
+					color: #FFFFFF;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-style: normal;
+					font-weight: 700;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetAutoCompleteOptionText
+{
+
+					color: #6A7275;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetAutoCompleteOptionText_hover
+{
+
+					color: #FFFFFF;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetBackToPivotActionContainer
+{
+
+					padding: 0px;
+					padding-left: 10px;
+					text-align: left;
+					vertical-align: middle;
+					white-space: nowrap;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetBackToPivotActionLink
+{
+
+					color: #027FAA;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					text-decoration: none;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetBackToPivotActionLink:hover
+{
+
+					color: #1196BA;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					text-decoration: underline;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetBulkDeleteActionContainer
+{
+
+					border: none;
+					margin: 0px;
+					padding: 0px 3px 0px 3px;
+					text-align: left;
+					vertical-align: middle;
+					white-space: nowrap;
+					width: auto;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetBulkDeleteActionLink
+{
+
+					color: #027FAA;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					text-decoration: none;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetBulkDeleteActionLink:hover
+{
+
+					color: #1196BA;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					text-decoration: underline;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetBulkEditActionContainer
+{
+
+					border: none;
+					margin: 0px;
+					padding: 0px 3px 0px 3px;
+					text-align: left;
+					vertical-align: middle;
+					white-space: nowrap;
+					width: auto;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetBulkEditActionLink
+{
+
+					color: #027FAA;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					text-decoration: none;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetBulkEditActionLink:hover
+{
+
+					color: #1196BA;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					text-decoration: underline;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetCalculatedField
+{
+
+					white-space: pre-wrap;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetCalendar
+{
+
+					background: #FFFFFF;
+					border-collapse: collapse;
+					border-color: #ACB7BB;
+					border-style: solid;
+					border-width: 0px 1px 1px 1px;
+					margin: 0px;
+					width: 100%;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetCalendarCaption
+{
+
+					color: #FFFFFF;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 16px;
+					font-weight: 400;
+					vertical-align: top;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetCalendarCaptionCell
+{
+
+					background: #027FAA;
+					padding: 12px 10px 12px 10px;
+					text-align: center;
+					vertical-align: top;
+					white-space: nowrap;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetCalendarCaptionTable
+{
+
+					margin: 0px;
+					width: 100%;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetCalendarCaptionTableCellspacing
+{
+
+					border-spacing: 0px;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetCalendarCellspacing
+{
+
+					border-spacing: 0px;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetCalendarDataLabel
+{
+
+					color: #333333;
+					font-family: Arial;
+					font-size: 14px;
+					font-weight: 700;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetCalendarEvenCell
+{
+
+					border-color: #ACB7BB;
+					border-style: solid;
+					border-width: 1px;
+					padding: 6px 8px;
+					text-align: left;
+					vertical-align: top;
+					white-space: normal;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetCalendarEvenCell:hover
+{
+
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetCalendarField
+{
+
+					color: #20282B;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 12px;
+					font-weight: 400;
+					padding: 0px;
+					text-align: right;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetCalendarFieldInactiveDate
+{
+
+					color: #AAAAAA;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 12px;
+					font-weight: 400;
+					padding: 0px;
+					text-align: right;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetCalendarHeader
+{
+
+					background-color: #F7F7F7;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetCalendarHeader:hover
+{
+
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetCalendarHeaderCell
+{
+
+					border-color: #ACB7BB;
+					border-style: solid;
+					border-width: 1px;
+					padding: 10px 12px;
+					text-align: center;
+					vertical-align: middle;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetCalendarHeaderCellDaily
+{
+
+					border-color: #ffffff;
+					border-style: solid;
+					border-width: 1px;
+					padding: 7px 10px 7px 10px;
+					text-align: right;
+					vertical-align: top;
+					white-space: nowrap;
+					width: 15%;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetCalendarHintLabel
+{
+
+					color: #333333;
+					font-family: Arial;
+					font-size: 14px;
+					font-style: normal;
+					font-weight: 400;
+					letter-spacing: 1px;
+					padding: 0px 6px;
+					text-decoration: none;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetCalendarHintLabel:hover
+{
+
+					color: #333333;
+					font-family: Arial;
+					font-size: 14px;
+					font-style: normal;
+					font-weight: 400;
+					letter-spacing: 1px;
+					padding: 0px 6px;
+					text-decoration: none;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetCalendarLabel
+{
+
+					color: #20282B;
+					font-family: Arial;
+					font-size: 14px;
+					font-weight: bold;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetCalendarNavigationLinks
+{
+
+					
+					color: #027FAA;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					margin: 0 5px;
+					text-decoration: none;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetCalendarNavigationLinks:hover
+{
+
+					
+					color: #1196BA;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					margin: 0 5px;
+					text-decoration: underline;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetCalendarOddCell
+{
+
+					border-color: #ACB7BB;
+					border-style: solid;
+					border-width: 1px;
+					padding: 6px 8px;
+					text-align: left;
+					vertical-align: top;
+					white-space: normal;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetCalendarOddCell:hover
+{
+
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetCalendarTableNowCell
+{
+
+					background: #F2F2F2;
+					border-color: #ACB7BB;
+					border-style: solid;
+					border-width: 1px;
+					font-weight: 700;
+					padding: 6px 8px;
+					text-align: left;
+					vertical-align: top;
+					white-space: normal;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetCalendarTableRow
+{
+
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetCancelButton
+{
+
+					-moz-border-radius: 3px;
+					-webkit-border-radius: 3px;
+					background: #FFFFFF;
+					border: 1px solid #027FAA;
+					border-radius: 3px;
+					color: #027FAA;
+					cursor: pointer;
+					display: inline-block;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 12px;
+					font-weight: 400;
+					height: 25px;
+					margin: 0px 3px;
+					min-width: 70px;
+					padding: 4px 10px;
+					text-align: center;
+					text-transform: uppercase;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetCancelButton:hover
+{
+
+					-moz-border-radius: 3px;
+					-webkit-border-radius: 3px;
+					background: #1196BA;
+					border: 1px solid #027FAA;
+					border-radius: 3px;
+					color: #FFFFFF;
+					cursor: pointer;
+					display: inline-block;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 12px;
+					font-weight: 400;
+					height: 25px;
+					margin: 0px 3px;
+					min-width: 70px;
+					padding: 4px 10px;
+					text-align: center;
+					text-transform: uppercase;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetCheckBox
+{
+
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetCheckBoxCell
+{
+
+					background-color: #transparent;
+					border-bottom: 1px solid #F7F7F7;
+					padding: 8px 10px;
+					text-align: center;
+					vertical-align: top;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetCollapsedSubTotalLabel
+{
+
+					color: #20282B;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 700;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetCollapsedSubTotalLabelCell
+{
+
+					background-color: #FFFFFF;
+					padding: 9px 12px;
+					text-align: left;
+					vertical-align: top;
+					white-space: normal;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetCollapsedSubTotalLabelCellNumberDate
+{
+
+					background-color: #FFFFFF;
+					padding: 9px 12px;
+					text-align: right;
+					vertical-align: top;
+					white-space: normal;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetColumnGroup1SubTotal
+{
+
+					box-shadow: inset 0px 0px 30px 30px rgba(0,0,0,0.08);
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetCommonError
+{
+
+					
+					color: #EB2A00;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 12px;
+					font-weight: 400;
+					margin-left: 5px;
+					text-align: left;
+					vertical-align: middle;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetData
+{
+
+					color: #20282B;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetDataLink, .ST79bf75348049454da2929315c2556bef table > thead + tbody > tr > td[class*="cbResultSetData"][class*="cbResultSetTableCell"] a
+{
+
+					color: #027FAA;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					text-decoration: none;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetDataLink:hover, .ST79bf75348049454da2929315c2556bef table > thead + tbody > tr > td[class*="cbResultSetData"][class*="cbResultSetTableCell"] a:hover
+{
+
+					color: #1196BA;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					text-decoration: underline;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetDataRow.Selected
+{
+
+					background-color: #F7F7F7;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetDownloadLink
+{
+
+					color: #027FAA;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					text-decoration: none;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetDownloadLink:hover
+{
+
+					color: #1196BA;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					text-decoration: underline;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetDownloadMessage
+{
+
+					border: none;
+					margin: 0px;
+					padding: 0px 3px 0px 3px;
+					text-align: left;
+					vertical-align: middle;
+					white-space: nowrap;
+					width: auto;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetDownloadTable
+{
+
+					
+					border: none;
+					margin: 0px;
+					padding: 5px 0px 5px 0px;
+					width: 100%;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetDownloadTableCellspacing
+{
+
+					border-spacing: 0px;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetError
+{
+
+					
+					color: #EB2A00;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 12px;
+					font-weight: 400;
+					margin-left: 5px;
+					text-align: left;
+					vertical-align: middle;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetEvenRow
+{
+
+					background-color: #FFFFFF;
+					border-bottom: 1px solid #F7F7F7;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetEvenRow.Hovered, .ST79bf75348049454da2929315c2556bef .cbResultSetEvenRow:hover
+{
+
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetExpandLink
+{
+
+					color: #027FAA;
+					cursor: pointer;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					text-decoration: none;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetExpandLink:hover
+{
+
+					color: #1196BA;
+					cursor: pointer;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					text-decoration: none;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetFile
+{
+
+					background: #FFFFFF;
+					color: #20282B;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					padding: 4px 6px;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetFreezeColumnsDivider
+{
+
+					border-color: #cccccc;
+					border-right-color: #cccccc;
+					border-right-style: solid;
+					border-right-width: 1px;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetGridActionCell
+{
+
+					border-color: #F2F2F2;
+					border-style: solid;
+					border-width: 0px 1px 1px 1px;
+					padding: 9px;
+					text-align: left;
+					vertical-align: top;
+					white-space: nowrap;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetGridCheckBoxCell
+{
+
+					background-color: transparent;
+					border-color: #F2F2F2;
+					border-style: solid;
+					border-width: 0px 1px 1px 1px;
+					padding: 8px 10px 0px 10px;
+					text-align: center;
+					vertical-align: top;
+					width: 10px;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetGridDataCell
+{
+
+					border-color: #F2F2F2;
+					border-style: solid;
+					border-width: 0px 1px 1px 0px;
+					padding: 9px 12px;
+					text-align: left;
+					vertical-align: top;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetGridDataCellNumberDate
+{
+
+					border-color: #F2F2F2;
+					border-style: solid;
+					border-width: 0px 1px 1px 0px;
+					padding: 9px 12px;
+					text-align: right;
+					vertical-align: top;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetGridDataRow.Selected
+{
+
+					background-color: #E2E8EA;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetGridEditActionContainer
+{
+
+					border: none;
+					margin: 0px;
+					padding: 0px 3px 0px 3px;
+					text-align: left;
+					vertical-align: middle;
+					white-space: nowrap;
+					width: auto;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetGridEditActionLink
+{
+
+					color: #027FAA;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					text-decoration: none;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetGridEditActionLink:hover
+{
+
+					color: #1196BA;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					text-decoration: underline;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetGridErrorDataCell
+{
+
+					background-color: #FFE5E5;
+					border-color: #EB2A00;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetGridEvenRow
+{
+
+					background-color: transparent;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetGridEvenRow.Hovered, .ST79bf75348049454da2929315c2556bef .cbResultSetGridEvenRow:hover
+{
+
+					background-color: transparent;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetGridHeaderCell
+{
+
+					background: #027FAA;
+					padding: 11px 12px;
+					text-align: left;
+					vertical-align: middle;
+					white-space: nowrap;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetGridHeaderCellNumberDate
+{
+
+					background: #027FAA;
+					padding: 11px 12px;
+					text-align: right;
+					text-transform: uppercase;
+					vertical-align: middle;
+					white-space: nowrap;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetGridHeaderCheckBoxCell
+{
+
+					background: #027FAA;
+					padding: 8px 12px;
+					text-align: middle;
+					vertical-align: middle;
+					white-space: nowrap;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetGridNonEditableColumn
+{
+
+					-khtml-opacity: 0.5;
+					-moz-opacity: 0.5;
+					background-color: #F7F7F7;
+					opacity: 0.5;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetGridNonEditableColumnNumberDate
+{
+
+					-khtml-opacity: 0.5;
+					-moz-opacity: 0.5;
+					background-color: #F7F7F7;
+					opacity: 0.5;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetGridOddRow
+{
+
+					background-color: transparent;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetGridOddRow.Hovered, .ST79bf75348049454da2929315c2556bef .cbResultSetGridOddRow:hover
+{
+
+					background-color: transparent;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetGridSeletedDataCell
+{
+
+					background: #FFFFFF;
+					border-color: #ACB7BB;
+					border-style: solid;
+					border-width: 1px 1px 1px 1px;
+					padding: 9px 12px;
+					text-align: left;
+					vertical-align: top;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetGridSeletedDataCellNumberDate
+{
+
+					background: #FFFFFF;
+					border-color: #ACB7BB;
+					border-style: solid;
+					border-width: 1px 1px 1px 1px;
+					padding: 9px 12px;
+					text-align: right;
+					vertical-align: top;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetGridTableHeader
+{
+
+					background-color: transparent;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetGridTableHeader:hover
+{
+
+					background-color: transparent;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetGroup1Data
+{
+
+					color: #20282B;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 700;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetGroup1DataCell
+{
+
+					border-top: 1px solid #F7F7F7;
+					padding: 9px 12px;
+					text-align: left;
+					vertical-align: top;
+					white-space: normal;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetGroup1DataCellNumberDate
+{
+
+					border-top: 1px solid #F7F7F7;
+					padding: 9px 12px;
+					text-align: right;
+					vertical-align: top;
+					white-space: normal;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetGroup1HeaderCheckBoxCell
+{
+
+					padding: 8px 10px;
+					text-align: center;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetGroup1Label
+{
+
+					color: #20282B;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 700;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetGroup1LabelCell
+{
+
+					background: #F2F2F2;
+					padding: 9px 12px;
+					text-align: left;
+					vertical-align: middle;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetGroup1LabelCellNumberDate
+{
+
+					background: #F2F2F2;
+					padding: 9px 12px;
+					text-align: right;
+					vertical-align: middle;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetGroup1Left
+{
+
+					border-bottom: 1px solid #F7F7F7;
+					border-top: 1px solid #F7F7F7;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetGroup1Right
+{
+
+					border-bottom: 1px solid #F7F7F7;
+					border-top: 1px solid #F7F7F7;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetGroup1Row
+{
+
+					border-bottom: 1px solid #FFFFFF;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetGroup1Row:hover
+{
+
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetGroup1SubTotal
+{
+
+					color: #20282B;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 700;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetGroup1SubTotalCell
+{
+
+					border-top: 1px solid #F7F7F7;
+					padding: 9px 12px;
+					text-align: left;
+					vertical-align: top;
+					white-space: normal;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetGroup2Data
+{
+
+					color: #20282B;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 700;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetGroup2DataCell
+{
+
+					background-color: #FFFFFF;
+					border-top: 1px solid #F7F7F7;
+					padding: 9px 12px;
+					text-align: left;
+					vertical-align: top;
+					white-space: normal;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetGroup2DataCellNumberDate
+{
+
+					background-color: #FFFFFF;
+					border-top: 1px solid #F7F7F7;
+					padding: 9px 12px;
+					text-align: right;
+					vertical-align: top;
+					white-space: normal;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetGroup2HeaderCheckBoxCell
+{
+
+					padding: 8px 10px;
+					text-align: center;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetGroup2Label
+{
+
+					color: #20282B;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 700;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetGroup2LabelCell
+{
+
+					background: #F2F2F2;
+					padding: 9px 12px;
+					text-align: left;
+					vertical-align: middle;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetGroup2LabelCellNumberDate
+{
+
+					background: #F2F2F2;
+					padding: 9px 12px;
+					text-align: right;
+					vertical-align: middle;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetGroup2Left
+{
+
+					border-bottom: 1px solid #F7F7F7;
+					border-top: 1px solid #F7F7F7;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetGroup2Right
+{
+
+					border-bottom: 1px solid #F7F7F7;
+					border-top: 1px solid #F7F7F7;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetGroup2Row
+{
+
+					border-bottom: 1px solid #FFFFFF;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetGroup2Row:hover
+{
+
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetGroup2SubTotal
+{
+
+					color: #20282B;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 700;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetGroup2SubTotalCell
+{
+
+					background: #FFFFFF;
+					border-top: 1px solid #F7F7F7;
+					padding: 9px 12px;
+					text-align: left;
+					vertical-align: top;
+					white-space: normal;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetGroup3Data
+{
+
+					color: #20282B;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 700;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetGroup3DataCell
+{
+
+					border-top: 1px solid #F7F7F7;
+					padding: 9px 12px;
+					text-align: left;
+					vertical-align: top;
+					white-space: normal;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetGroup3DataCellNumberDate
+{
+
+					border-top: 1px solid #F7F7F7;
+					padding: 9px 12px;
+					text-align: right;
+					vertical-align: top;
+					white-space: normal;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetGroup3HeaderCheckBoxCell
+{
+
+					padding: 8px 10px;
+					text-align: center;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetGroup3Label
+{
+
+					color: #20282B;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 700;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetGroup3LabelCell
+{
+
+					background: #F2F2F2;
+					padding: 9px 12px;
+					text-align: left;
+					vertical-align: middle;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetGroup3LabelCellNumberDate
+{
+
+					background: #F2F2F2;
+					padding: 9px 12px;
+					text-align: right;
+					vertical-align: middle;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetGroup3Left
+{
+
+					border-bottom: 1px solid #F7F7F7;
+					border-top: 1px solid #F7F7F7;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetGroup3Right
+{
+
+					border-bottom: 1px solid #F7F7F7;
+					border-top: 1px solid #F7F7F7;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetGroup3Row
+{
+
+					border-bottom: 1px solid #FFFFFF;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetGroup3Row:hover
+{
+
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetGroup3SubTotal
+{
+
+					color: #20282B;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 700;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetGroup3SubTotalCell
+{
+
+					border-top: 1px solid #F7F7F7;
+					padding: 9px 12px;
+					text-align: left;
+					vertical-align: top;
+					white-space: normal;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetGroup4Data
+{
+
+					color: #20282B;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 700;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetGroup4DataCell
+{
+
+					border-top: 1px solid #F7F7F7;
+					padding: 9px 12px;
+					text-align: left;
+					vertical-align: top;
+					white-space: normal;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetGroup4DataCellNumberDate
+{
+
+					border-top: 1px solid #F7F7F7;
+					padding: 9px 12px;
+					text-align: right;
+					vertical-align: top;
+					white-space: normal;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetGroup4HeaderCheckBoxCell
+{
+
+					padding: 8px 10px;
+					text-align: center;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetGroup4Label
+{
+
+					color: #20282B;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 700;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetGroup4LabelCell
+{
+
+					background: #F2F2F2;
+					padding: 9px 12px;
+					text-align: left;
+					vertical-align: middle;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetGroup4LabelCellNumberDate
+{
+
+					background: #F2F2F2;
+					padding: 9px 12px;
+					text-align: right;
+					vertical-align: middle;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetGroup4Left
+{
+
+					border-bottom: 1px solid #F7F7F7;
+					border-top: 1px solid #F7F7F7;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetGroup4Right
+{
+
+					border-bottom: 1px solid #F7F7F7;
+					border-top: 1px solid #F7F7F7;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetGroup4Row
+{
+
+					border-bottom: 1px solid #FFFFFF;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetGroup4Row:hover
+{
+
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetGroup4SubTotal
+{
+
+					color: #20282B;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 700;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetGroup4SubTotalCell
+{
+
+					border-top: 1px solid #F7F7F7;
+					padding: 9px 12px;
+					text-align: left;
+					vertical-align: top;
+					white-space: normal;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetHeaderCell
+{
+
+					background: #027FAA;
+					padding: 11px 12px;
+					text-align: left;
+					vertical-align: middle;
+					white-space: nowrap;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetHeaderCellNumberDate
+{
+
+					background: #027FAA;
+					padding: 11px 12px;
+					text-align: right;
+					vertical-align: middle;
+					white-space: nowrap;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetHeaderCheckBoxCell
+{
+
+					background-color: #027FAA;
+					padding: 8px 10px;
+					text-align: center;
+					width: 10px;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetHintLabel
+{
+
+					color: #FFFFFF;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-style: normal;
+					font-weight: 400;
+					letter-spacing: 1px;
+					padding: 0px 6px;
+					text-decoration: none;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetHintLabel:hover
+{
+
+					color: #FFFFFF;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-style: normal;
+					letter-spacing: 1px;
+					padding: 0px 6px;
+					text-decoration: none;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetHintLabelImage
+{
+
+					border: none;
+					vertical-align: bottom;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetHintTipContainer
+{
+
+					-khtml-opacity: 1;
+					-moz-border-radius: 3px;
+					-moz-opacity: 1;
+					-webkit-border-radius: 3px;
+					background-color: #484C50;
+					border-radius: 3px;
+					opacity: 1;
+					padding: 4px 8px;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetHintTipText
+{
+
+					color: #FFFFFF;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 12px;
+					font-style: normal;
+					text-decoration: none;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetInlineCalendarWrapper
+{
+
+					white-space: nowrap;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetJumpToTextField
+{
+
+					-moz-border-radius: 3px;
+					-webkit-border-radius: 3px;
+					background: #FFFFFF;
+					border-color: #ACB7BB;
+					border-radius: 3px;
+					border-style: solid;
+					border-width: 1px;
+					color: #20282B;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 13px;
+					font-weight: 400;
+					padding: 3px;
+					text-align: right;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetLabel
+{
+
+					color: #FFFFFF;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 700;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetLabelLink
+{
+
+					color: #FFFFFF;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 700;
+					text-decoration: none;
+					vertical-align: middle;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetLabelLink:hover
+{
+
+					color: #FFFFFF;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 700;
+					text-decoration: underline;
+					vertical-align: middle;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetListGallerySelectAllActionContainer
+{
+
+					border: none;
+					margin: 0px;
+					padding: 0px 3px 0px 3px;
+					text-align: left;
+					vertical-align: middle;
+					white-space: nowrap;
+					width: auto;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetListGallerySelectAllActionLink
+{
+
+					color: #027FAA;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					text-decoration: none;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetListGallerySelectAllActionLink:hover
+{
+
+					color: #1196BA;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					text-decoration: underline;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetListItem
+{
+
+					margin: 0px 0px 1px 0px;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetListView
+{
+
+					border-collapse: separate;
+					border-spacing: 8px 10px;
+					margin: 0px;
+					width: 100%;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetListViewCellspacing
+{
+
+					border-spacing: 8px 10px;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetListViewDataLabel
+{
+
+					color: #333333;
+					font-family: Arial;
+					font-size: 14px;
+					font-weight: 700;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetListViewHeaderCheckBoxCell
+{
+
+					background-color: #F7F7F7;
+					border-color: #E2E8EA;
+					border-style: solid;
+					border-width: 0px 0px 1px 0px;
+					padding: 5px 6px 4px 6px;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetListViewHeaderCheckBoxCell:hover
+{
+
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetListViewHeaderCheckBoxCell.Selected
+{
+
+					background-color: #E2E8EA;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetListViewHintLabel
+{
+
+					color: #333333;
+					font-family: Arial;
+					font-size: 14px;
+					font-style: normal;
+					font-weight: 400;
+					letter-spacing: 1px;
+					padding: 0px 6px;
+					text-decoration: none;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetListViewHintLabel:hover
+{
+
+					color: #333333;
+					font-family: Arial;
+					font-size: 14px;
+					font-style: normal;
+					font-weight: 400;
+					letter-spacing: 1px;
+					padding: 0px 6px;
+					text-decoration: none;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetListViewRow
+{
+
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetListViewTableEvenCell
+{
+
+					-moz-border-radius: 3px;
+					-webkit-border-radius: 3px;
+					background: #FFFFFF;
+					border: 1px solid #ACB7BB;
+					border-radius: 3px;
+					padding: 0px;
+					text-align: left;
+					vertical-align: top;
+					white-space: normal;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetListViewTableEvenCell:hover
+{
+
+					padding: 0px;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetListViewTableOddCell
+{
+
+					-moz-border-radius: 3px;
+					-webkit-border-radius: 3px;
+					background: #FFFFFF;
+					border: 1px solid #ACB7BB;
+					border-radius: 3px;
+					padding: 0px;
+					text-align: left;
+					vertical-align: top;
+					white-space: normal;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetListViewTableOddCell:hover
+{
+
+					padding: 0px;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetModifyButton
+{
+
+					-moz-border-radius: 3px;
+					-webkit-border-radius: 3px;
+					background: #027FAA;
+					border: none;
+					border-radius: 3px;
+					color: #FFFFFF;
+					display: inline-block;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 12px;
+					font-weight: 400;
+					height: 25px;
+					margin: 0px 3px;
+					min-width: 70px;
+					padding: 4px 10px;
+					text-align: center;
+					text-transform: uppercase;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetModifyButton:hover
+{
+
+					-moz-border-radius: 3px;
+					-webkit-border-radius: 3px;
+					background: #1196BA;
+					border: none;
+					border-radius: 3px;
+					color: #FFFFFF;
+					cursor: pointer;
+					display: inline-block;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 12px;
+					font-weight: 400;
+					margin: 0px 3px;
+					min-width: 70px;
+					padding: 4px 10px;
+					text-align: center;
+					text-transform: uppercase;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetMultiSelect
+{
+
+					-moz-border-radius: 3px;
+					-moz-box-sizing: border-box;
+					-webkit-border-radius: 3px;
+					-webkit-box-sizing: border-box;
+					border-color: #ACB7BB;
+					border-radius: 3px;
+					border-style: solid;
+					border-width: 1px;
+					box-sizing: border-box;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetMultiSelectField
+{
+
+					cursor: default;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					padding: 2px 6px;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetMultiSelectText
+{
+
+					background: #FFFFFF;
+					color: #20282B;
+					cursor: pointer;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					padding: 2px 6px;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetMultiSelectText_hover
+{
+
+					background: #f2f2f2;
+					color: #20282B;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetNavigationCell
+{
+
+					border: none;
+					margin: 0px;
+					padding: 5px;
+					text-align: right;
+					vertical-align: middle;
+					white-space: nowrap;
+					width: auto;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetNavigationDDown
+{
+
+					color: #027FAA;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					text-decoration: none;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetNavigationLinks
+{
+
+					
+					color: #027FAA;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					margin: 0 5px;
+					text-decoration: none;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetNavigationLinks:hover
+{
+
+					
+					color: #1196BA;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					margin: 0 5px;
+					text-decoration: underline;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetNavigationMessages
+{
+
+					color: #333333;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetNavigationTable
+{
+
+					border: none;
+					margin: 3px 0px;
+					white-space: nowrap;
+					width: 100%;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetNavigationTableCellspacing
+{
+
+					border-spacing: 0px;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetNestedAlign
+{
+
+					vertical-align: top;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetOddRow
+{
+
+					background-color: #FFFFFF;
+					border-bottom: 1px solid #F7F7F7;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetOddRow.Hovered, .ST79bf75348049454da2929315c2556bef .cbResultSetOddRow:hover
+{
+
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetOrderedList
+{
+
+					margin: 0px 4px 0px 7px;
+					padding-left: 10px;
+					white-space: nowrap;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetOuterTable
+{
+
+					width: 100%;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetPageActionsCell
+{
+
+					vertical-align: bottom;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetPanelCalendarRAContainer
+{
+
+					-khtml-opacity: 0.8;
+					-moz-opacity: 0.8;
+					background: #E2E8EA;
+					opacity: 0.8;
+					overflow: hidden;
+					padding: 5px 15px;
+					text-align: left;
+					vertical-align: middle;
+					white-space: nowrap;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetPanelCalendarRAContainer:hover
+{
+
+					-khtml-opacity: 1;
+					-moz-opacity: 1;
+					background: #E2E8EA;
+					opacity: 1;
+					overflow: hidden;
+					padding: 5px 15PX;
+					text-align: left;
+					vertical-align: middle;
+					white-space: nowrap;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetPanelColumnarRAContainer
+{
+
+					-khtml-opacity: 0.8;
+					-moz-opacity: 0.8;
+					background: #E2E8EA;
+					opacity: 0.8;
+					overflow: hidden;
+					padding: 5px 15px;
+					text-align: left;
+					vertical-align: middle;
+					white-space: nowrap;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetPanelColumnarRAContainer:hover
+{
+
+					-khtml-opacity: 1;
+					-moz-opacity: 1;
+					background: #E2E8EA;
+					opacity: 1;
+					overflow: hidden;
+					padding: 5px 15px;
+					text-align: left;
+					vertical-align: middle;
+					white-space: nowrap;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetPanelDataContainer
+{
+
+					padding: 10px 20px;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetPdfHeaderFooter
+{
+
+					font-family: Arial, Helvetica, sans-serif;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetRANestedTable
+{
+
+					border: none;
+					border-collapse: collapse;
+					height: 100%;
+					padding: 0px;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetRANestedTableCellspacing
+{
+
+					border-spacing: 0px;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetRecordCell
+{
+
+					border: none;
+					margin: 0px;
+					padding: 5px;
+					text-align: center;
+					vertical-align: middle;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetRecordIndex
+{
+
+					color: #20282B;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					padding: 9px 12px;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetRecordMessage
+{
+
+					color: #333333;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetRecordPerPageCell
+{
+
+					border: none;
+					margin: 0px;
+					padding: 6px;
+					text-align: left;
+					vertical-align: middle;
+					white-space: nowrap;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetRecordPerPageControl
+{
+
+					-moz-border-radius: 3px;
+					-webkit-border-radius: 3px;
+					background: #FFFFFF;
+					border-color: #ACB7BB;
+					border-radius: 3px;
+					border-style: solid;
+					border-width: 1px;
+					color: #20282B;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 13px;
+					font-weight: 400;
+					padding: 3px;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetRecordPerPageMessage
+{
+
+					border: 0px;
+					color: #333333;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					margin: 0px;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetSearchAgainContainer
+{
+
+					border: none;
+					margin: 0px;
+					padding: 0px 3px 0px 3px;
+					text-align: left;
+					vertical-align: middle;
+					white-space: nowrap;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetSearchAgainLink
+{
+
+					color: #027FAA;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					text-decoration: none;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetSearchAgainLink:hover
+{
+
+					color: #1196BA;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					text-decoration: underline;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetSelect
+{
+
+					-moz-border-radius: 3px;
+					-moz-box-sizing: border-box;
+					-webkit-border-radius: 3px;
+					-webkit-box-sizing: border-box;
+					background: #FFFFFF;
+					border-color: #ACB7BB;
+					border-radius: 3px;
+					border-style: solid;
+					border-width: 1px;
+					box-sizing: border-box;
+					color: #20282B;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					padding: 3px 4px;
+					width: auto;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetSelectRecordCheckBoxCell
+{
+
+					width: 25px;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetShowHideGroupText
+{
+
+					color: #027FAA;
+					cursor: pointer;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-style: normal;
+					font-weight: 700;
+					margin-right: 5px;
+					text-decoration: none;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetShowHideGroupText:hover
+{
+
+					color: #1196BA;
+					cursor: pointer;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-style: normal;
+					font-weight: 700;
+					margin-right: 5px;
+					text-decoration: none;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetSortContainer
+{
+
+					border: none;
+					margin: 0px;
+					padding: 0px 0px 0px 0px;
+					text-align: right;
+					white-space: nowrap;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetSortControl
+{
+
+					-moz-border-radius: 3px;
+					-webkit-border-radius: 3px;
+					background: #FFFFFF;
+					border-color: #ACB7BB;
+					border-radius: 3px;
+					border-style: solid;
+					border-width: 1px;
+					color: #20282B;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 13px;
+					font-weight: 400;
+					padding: 3px;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetSortLabel
+{
+
+					color: #333333;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-style: normal;
+					font-weight: 400;
+					padding: 0px 7px 0px 0px;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetSortText
+{
+
+					
+					margin-left: 3px;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetTable
+{
+
+					background: #FFFFFF;
+					border-collapse: collapse;
+					margin: 0px;
+					width: 100%;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetTableCell
+{
+
+					background-color: transparent;
+					padding: 9px 12px;
+					text-align: left;
+					vertical-align: top;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetTableCellNumberDate
+{
+
+					padding: 9px 12px;
+					text-align: right;
+					vertical-align: top;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetTableCellspacing
+{
+
+					border-spacing: 0px;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetTableHeader
+{
+
+					background-color: transparent;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetTableHeader:hover
+{
+
+					background-color: transparent;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetTextArea
+{
+
+					-moz-border-radius: 3px;
+					-moz-box-sizing: border-box;
+					-webkit-border-radius: 3px;
+					-webkit-box-sizing: border-box;
+					background: #FFFFFF;
+					border-color: #ACB7BB;
+					border-radius: 3px;
+					border-style: solid;
+					border-width: 1px;
+					box-sizing: border-box;
+					color: #20282B;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					padding: 4px 6px;
+					resize: vertical;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetTextField
+{
+
+					-moz-border-radius: 3px;
+					-moz-box-sizing: border-box;
+					-webkit-border-radius: 3px;
+					-webkit-box-sizing: border-box;
+					background: #FFFFFF;
+					border-color: #ACB7BB;
+					border-radius: 3px;
+					border-style: solid;
+					border-width: 1px;
+					box-sizing: border-box;
+					color: #20282B;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					padding: 4px 6px;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetTotalsData
+{
+
+					color: #20282B;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 700;
+					text-transform: uppercase;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetTotalsDataCell
+{
+
+					background: #FFFFFF;
+					padding: 11px 12px;
+					text-align: left;
+					vertical-align: top;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetTotalsDataCellNumberDate
+{
+
+					background: #FFFFFF;
+					padding: 11px 12px;
+					text-align: right;
+					vertical-align: top;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetTotalsLabel
+{
+
+					color: #20282B;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 700;
+					text-transform: uppercase;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetTotalsLabelCell
+{
+
+					background: #FFFFFF;
+					padding: 11px 12px;
+					text-align: left;
+					vertical-align: top;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetTotalsRow
+{
+
+					background: #FFFFFF;
+					border-bottom: 3px solid #F7F7F7;
+					border-top: 3px solid #F7F7F7;
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetTotalsRow:hover
+{
+
+}
+.ST79bf75348049454da2929315c2556bef .cbResultSetUnorderedList
+{
+
+					margin: 0px 4px 0px 7px;
+					padding-left: 10px;
+					white-space: nowrap;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbSearchButton
+{
+
+					-moz-border-radius: 3px;
+					-webkit-border-radius: 3px;
+					background: #027FAA;
+					border: none;
+					border-radius: 3px;
+					color: #FFFFFF;
+					display: inline-block;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 15px;
+					font-weight: 400;
+					height: 40px;
+					margin: 0px 10px;
+					min-width: 180px;
+					padding: 0px 20px;
+					text-align: center;
+					text-transform: uppercase;
+}
+.ST79bf75348049454da2929315c2556bef .cbSearchButton:hover
+{
+
+					-moz-border-radius: 3px;
+					-webkit-border-radius: 3px;
+					background: #1196BA;
+					border: none;
+					border-radius: 3px;
+					color: #FFFFFF;
+					cursor: pointer;
+					display: inline-block;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 15px;
+					font-weight: 400;
+					height: 40px;
+					margin: 0px 10px;
+					min-width: 180 px;
+					padding: 0px 20px;
+					text-align: center;
+					text-transform: uppercase;
+}
+.ST79bf75348049454da2929315c2556bef .cbSearchButtonContainer
+{
+
+					background: #FFFFFF;
+					padding: 15px 15px 30px 15px;
+					text-align: center;
+					vertical-align: middle;
+}
+.ST79bf75348049454da2929315c2556bef .cbSubmitButton
+{
+
+					-moz-border-radius: 3px;
+					-webkit-border-radius: 3px;
+					background: #027FAA;
+					border: none;
+					border-radius: 3px;
+					color: #FFFFFF;
+					display: inline-block;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 15px;
+					font-weight: 400;
+					height: 40px;
+					margin: 0px 10px;
+					min-width: 180px;
+					padding: 0px 20px;
+					text-align: center;
+					text-transform: uppercase;
+}
+.ST79bf75348049454da2929315c2556bef .cbSubmitButton:hover
+{
+
+					-moz-border-radius: 3px;
+					-webkit-border-radius: 3px;
+					background: #1196BA;
+					border: none;
+					border-radius: 3px;
+					color: #FFFFFF;
+					cursor: pointer;
+					display: inline-block;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 15px;
+					font-weight: 400;
+					height: 40px;
+					margin: 0px 10px;
+					min-width: 180 px;
+					padding: 0px 20px;
+					text-align: center;
+					text-transform: uppercase;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbSubmitButtonContainer
+{
+
+					background: #FFFFFF;
+					padding: 15px 15px 30px 15px;
+					text-align: center;
+					vertical-align: middle;
+}
+.ST79bf75348049454da2929315c2556bef .cbSystemMessageContainer
+{
+
+					background-color: #faf7e4;
+					border: 1px solid #dedede;
+					display: table;
+					margin: 0px auto;
+					width: auto;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbSystemMessageContainerContent
+{
+
+					color: #686868;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-style: normal;
+					padding: 10px 30px 10px 15px;
+					position: relative;
+					text-align: center;
+					vertical-align: middle;
+				
+}
+.ST79bf75348049454da2929315c2556bef .cbTableAlignCenter
+{
+
+					margin: 0px auto;
+}
+.ST79bf75348049454da2929315c2556bef .cbTableAlignLeft
+{
+
+					margin: 0px auto 0px 0px;
+}
+.ST79bf75348049454da2929315c2556bef .cbTableAlignRight
+{
+
+					margin: 0px 0px 0px auto;
+}
+.ST79bf75348049454da2929315c2556bef .cbTableBorderAttribute
+{
+
+					border-width: 0px;
+}
+.ST79bf75348049454da2929315c2556bef .cbTableCellPadding
+{
+
+					padding: 0px;
+}
+.ST79bf75348049454da2929315c2556bef .cbTableDefaultCellspacing
+{
+
+					border-spacing: 0px;
+}
+.ST79bf75348049454da2929315c2556bef .cbUpdateButton
+{
+
+					-moz-border-radius: 3px;
+					-webkit-border-radius: 3px;
+					background: #027FAA;
+					border: none;
+					border-radius: 3px;
+					color: #FFFFFF;
+					display: inline-block;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 15px;
+					font-weight: 400;
+					height: 40px;
+					margin: 0px 10px;
+					min-width: 180px;
+					padding: 0px 20px;
+					text-align: center;
+					text-transform: uppercase;
+}
+.ST79bf75348049454da2929315c2556bef .cbUpdateButton:hover
+{
+
+					-moz-border-radius: 3px;
+					-webkit-border-radius: 3px;
+					background: #1196BA;
+					border: none;
+					border-radius: 3px;
+					color: #FFFFFF;
+					cursor: pointer;
+					display: inline-block;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 15px;
+					font-weight: 400;
+					height: 40px;
+					margin: 0px 10px;
+					min-width: 180 px;
+					padding: 0px 20px;
+					text-align: center;
+					text-transform: uppercase;
+}
+.ST79bf75348049454da2929315c2556bef .cbUpdateButtonContainer
+{
+
+					background: #FFFFFF;
+					padding: 15px 15px 30px 15px;
+					text-align: center;
+					vertical-align: middle;
+}
+.ST79bf75348049454da2929315c2556bef h1
+{
+
+					color: #20282B;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 24px;
+					font-weight: 400;
+					margin: 0px;
+					padding: 15px 0px 7px 0px;
+}
+.ST79bf75348049454da2929315c2556bef h2
+{
+
+					color: #20282B;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 20px;
+					font-weight: 400;
+					margin: 0px;
+					padding: 10px 0px 5px 0px;
+}
+.ST79bf75348049454da2929315c2556bef h3
+{
+
+					color: #027FAA;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 18px;
+					font-weight: 400;
+					margin: 0px;
+					padding: 8px 0px 4px 0px;
+}
+.ST79bf75348049454da2929315c2556bef li
+{
+
+					
+					color: #20282B;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					margin: 1px 0px;
+					padding: 0px;
+}
+.ST79bf75348049454da2929315c2556bef p
+{
+
+					color: #20282B;
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 14px;
+					font-weight: 400;
+					line-height: 130%;
+					margin: 7px 3px 2px 0px;
+}
+.ST79bf75348049454da2929315c2556bef ul
+{
+
+					
+					list-style-position: inside;
+					list-style-type: square;
+					margin: 7px 3px 2px 0px;
+					padding: 0px;
+}
+@media only screen and (min-width: 576px) and (max-width: 1024px) {
+article.ST79bf75348049454da2929315c2556bef .cbAuthIconsProviderLink
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbAuthIconsProviderLink:hover
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbGenerateTemplatesLink
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbGenerateTemplatesLink:hover
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultGenerateTemplatesLink, article.ST79bf75348049454da2929315c2556bef table > thead + tbody > tr > td[class*="cbResultSetData"][class*="cbResultSetTableCell"] a.cbResultGenerateTemplatesLink
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultGenerateTemplatesLink:hover, article.ST79bf75348049454da2929315c2556bef table > thead + tbody > tr > td[class*="cbResultSetData"][class*="cbResultSetTableCell"] a.cbResultGenerateTemplatesLink:hover
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbAuthSidebarProviderActiveLink
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbAuthSidebarProviderActiveLink:hover
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbAuthSidebarProviderLink
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbAuthSidebarProviderLink:hover
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbAuthSimpleProviderLink
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbAuthSimpleProviderLink:hover
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbAuthSimpleProviderPrompt
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbAuthSimpleSignInWithPrompt
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbBackButton
+{
+
+						font-size: 18px;
+						height: 46px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbBackButton:hover
+{
+
+						font-size: 18px;
+						height: 46px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbBulkFormAutoCompleteOptionRemainder
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbBulkFormAutoCompleteOptionRemainder_hover
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbBulkFormAutoCompleteOptionText
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbBulkFormAutoCompleteOptionText_hover
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbConfirmationMessages
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbDeleteButton
+{
+
+						font-size: 18px;
+						height: 46px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbDeleteButton:hover
+{
+
+						font-size: 18px;
+						height: 46px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormAutoCompleteOptionRemainder
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormAutoCompleteOptionRemainder_hover
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormAutoCompleteOptionText
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormAutoCompleteOptionText_hover
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormBackToPivotActionLink
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormBackToPivotActionLink:hover
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormBackToReportActionLink
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormBackToReportActionLink:hover
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormCalculatedField
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormCalendarPickerDate
+{
+
+						font-size: 16px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormCalendarPickerDate:hover
+{
+
+						font-size: 16px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormCalendarPickerMonthDay
+{
+
+						font-size: 16px;
+						height: 32px;
+						line-height: 32px;
+						min-width: 32px;
+						color: #333333;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormCalendarPickerMonthDay:hover
+{
+
+						font-size: 16px;
+						height: 32px;
+						color: #333333;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormCalendarPickerMonthItem
+{
+
+						font-size: 16px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormCalendarPickerNavBarItem
+{
+
+						font-size: 16px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormCalendarPickerNavBarItem:hover
+{
+
+						font-size: 16px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormCalendarPickerSelectedDate
+{
+
+						font-size: 16px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormCalendarPickerTodayDate
+{
+
+						font-size: 16px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormCalendarPickerTodayLabel
+{
+
+						font-size: 16px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormCalendarPickerTodaySection
+{
+
+						font-size: 16px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormCalendarPickerTodaySection:hover
+{
+
+						font-size: 16px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormCalendarPickerWeekDayContainer
+{
+
+						font-size: 13px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormCalendarPickerWeekDayItem
+{
+
+						font-size: 13px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormChargeOffConfirmation
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormCommonError
+{
+
+						font-size: 19px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormData
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormDataLink, article.ST79bf75348049454da2929315c2556bef section[class^="cbFormSection"] .cbFormData a
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormDataLink:hover, article.ST79bf75348049454da2929315c2556bef section[class^="cbFormSection"] .cbFormData a:hover
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormError
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormErrorMarker
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormExpandLink
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormExpandLink:hover
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormFile
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormHintLabel
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormHintLabel:hover
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormHintTipText
+{
+
+						font-size: 15px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormJumpToTextField
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormLabel
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormLabelError
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormLabelRequired
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormMultiSelectField
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormMultiSelectText
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormMultiSelectText_hover
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormNavigationDDown
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormNavigationLinks
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormNavigationLinks:hover
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormNavigationMessage
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormPassword
+{
+
+						font-size: 17px;
+						width: 100%;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormPaymentProcessor
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormRequiredMarker
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormSearchAgainLink
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormSearchAgainLink:hover
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormDownloadDetailsLink
+{
+
+						font-size: 17px;
+				
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormDownloadDetailsLink:hover
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormSelect
+{
+
+						font-size: 17px;
+						width: 100%;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormTextArea
+{
+
+						font-size: 17px;
+						width: 100%;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormTextAreaHint
+{
+
+						font-size: 15px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormTextField
+{
+
+						font-size: 17px;
+						width: 100%;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbHTMLBlockContainer
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbInlineAddFormButton
+{
+
+						font-size: 18px;
+						height: 46px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbInlineAddFormButton:hover
+{
+
+						font-size: 18px;
+						height: 46px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbLoginButton
+{
+
+						font-size: 18px;
+						height: 46px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbLoginButton:hover
+{
+
+						font-size: 18px;
+						height: 46px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbPasswordRecoveryButton
+{
+
+						font-size: 18px;
+						height: 46px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbPasswordRecoveryButton:hover
+{
+
+						font-size: 18px;
+						height: 46px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbPasswordResetButton
+{
+
+						font-size: 18px;
+						height: 46px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbPasswordResetButton:hover
+{
+
+						font-size: 18px;
+						height: 46px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbPasswordStrength
+{
+
+						font-size: 14px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetActionsLinks
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetActionsLinks:hover
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetAddButton
+{
+
+						font-size: 15px;
+						height: 36px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetAddButton:hover
+{
+
+						font-size: 15px;
+						height: 36px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetAutoCompleteOptionRemainder
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetAutoCompleteOptionRemainder_hover
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetAutoCompleteOptionText
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetAutoCompleteOptionText_hover
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetBackToPivotActionLink
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetBackToPivotActionLink:hover
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetBulkDeleteActionLink
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetBulkDeleteActionLink:hover
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetBulkEditActionLink
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetBulkEditActionLink:hover
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetCalendarCaption
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetCalendarDataLabel
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetCalendarEvenCell
+{
+
+						padding: 10px 8px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetCalendarField
+{
+
+						font-size: 18px;
+						font-weight: 700;
+						text-align: center;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetCalendarField:before
+{
+
+						font-size: 14px;
+						font-weight: 400;
+						text-align: center;
+						text-transform: uppercase;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetCalendarFieldInactiveDate
+{
+
+						font-size: 17px;
+						text-align: center;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetCalendarFieldInactiveDate:before
+{
+
+						font-size: 14px;
+						text-align: center;
+						text-transform: uppercase;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetCalendarHintLabel
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetCalendarHintLabel:hover
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetCalendarLabel
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetCalendarNavigationLinks
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetCalendarNavigationLinks:hover
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetCalendarOddCell
+{
+
+						padding: 10px 8px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetCalendarTableNowCell
+{
+
+						padding: 10px 8px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetCancelButton
+{
+
+						font-size: 15px;
+						height: 36px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetCancelButton:hover
+{
+
+						font-size: 15px;
+						height: 36px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetCollapsedSubTotalLabel
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetCommonError
+{
+
+						font-size: 15px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetData
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetDataLink, article.ST79bf75348049454da2929315c2556bef table > thead + tbody > tr > td[class*="cbResultSetData"][class*="cbResultSetTableCell"] a
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetDataLink:hover, article.ST79bf75348049454da2929315c2556bef table > thead + tbody > tr > td[class*="cbResultSetData"][class*="cbResultSetTableCell"] a:hover
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetDownloadLink
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetDownloadLink:hover
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetError
+{
+
+						font-size: 15px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetExpandLink
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetExpandLink:hover
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetFile
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetGridEditActionLink
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetGridEditActionLink:hover
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetGroup1Data
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetGroup1Label
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetGroup1SubTotal
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetGroup2Data
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetGroup2Label
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetGroup2SubTotal
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetGroup3Data
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetGroup3Label
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetGroup3SubTotal
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetGroup4Data
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetGroup4Label
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetGroup4SubTotal
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetHintLabel
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetHintLabel:hover
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetHintTipText
+{
+
+						font-size: 15px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetJumpToTextField
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetLabel
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetLabelLink
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetLabelLink:hover
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetListGallerySelectAllActionLink
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetListGallerySelectAllActionLink:hover
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetListViewDataLabel
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetListViewHintLabel
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetListViewHintLabel:hover
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetModifyButton
+{
+
+						font-size: 15px;
+						height: 36px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetModifyButton:hover
+{
+
+						font-size: 15px;
+						height: 36px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetMultiSelectField
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetMultiSelectText
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetMultiSelectText_hover
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetNavigationDDown
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetNavigationLinks
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetNavigationLinks:hover
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetNavigationMessages
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetRecordIndex
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetRecordMessage
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetRecordPerPageControl
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetRecordPerPageMessage
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetSearchAgainLink
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetSearchAgainLink:hover
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetSelect
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetShowHideGroupText
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetShowHideGroupText:hover
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetSortControl
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetSortLabel
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetTextArea
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetTextField
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetTotalsData
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetTotalsLabel
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbSearchButton
+{
+
+						font-size: 18px;
+						height: 46px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbSearchButton:hover
+{
+
+						font-size: 18px;
+						height: 46px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbSubmitButton
+{
+
+						font-size: 18px;
+						height: 46px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbSubmitButton:hover
+{
+
+						font-size: 18px;
+						height: 46px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbSystemMessageContainerContent
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbUpdateButton
+{
+
+						font-size: 18px;
+						height: 46px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbUpdateButton:hover
+{
+
+						font-size: 18px;
+						height: 46px;
+					
+}
+}
+@media only screen and (max-width: 575px) {
+article.ST79bf75348049454da2929315c2556bef .cbAuthIconsProviderLink
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbAuthIconsProviderLink:hover
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbGenerateTemplatesLink
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbGenerateTemplatesLink:hover
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultGenerateTemplatesLink, article.ST79bf75348049454da2929315c2556bef table > thead + tbody > tr > td[class*="cbResultSetData"][class*="cbResultSetTableCell"] a.cbResultGenerateTemplatesLink
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultGenerateTemplatesLink:hover, article.ST79bf75348049454da2929315c2556bef table > thead + tbody > tr > td[class*="cbResultSetData"][class*="cbResultSetTableCell"] a.cbResultGenerateTemplatesLink:hover
+{
+
+						font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbAuthSidebarProviderActiveLink
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbAuthSidebarProviderActiveLink:hover
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbAuthSidebarProviderLink
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbAuthSidebarProviderLink:hover
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbAuthSimpleProviderLink
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbAuthSimpleProviderLink:hover
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbAuthSimpleProviderPrompt
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbAuthSimpleSignInWithPrompt
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbBackButton
+{
+
+							font-size: 18px;
+							height: 46px;
+							width: 100%;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbBackButton:hover
+{
+
+							font-size: 18px;
+							height: 46px;
+							width: 100%;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbBulkFormAutoCompleteOptionRemainder
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbBulkFormAutoCompleteOptionRemainder_hover
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbBulkFormAutoCompleteOptionText
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbBulkFormAutoCompleteOptionText_hover
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbConfirmationMessages
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbDeleteButton
+{
+
+							font-size: 18px;
+							height: 46px;
+							width: 100%;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbDeleteButton:hover
+{
+
+							font-size: 18px;
+							height: 46px;
+							width: 100%;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormAutoCompleteOptionRemainder
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormAutoCompleteOptionRemainder_hover
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormAutoCompleteOptionText
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormAutoCompleteOptionText_hover
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormBackToPivotActionLink
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormBackToPivotActionLink:hover
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormBackToReportActionLink
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormBackToReportActionLink:hover
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormCalculatedField
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormCalendarPickerDate
+{
+
+							font-size: 16px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormCalendarPickerDate:hover
+{
+
+							font-size: 16px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormCalendarPickerMonthDay
+{
+
+							font-size: 16px;
+							height: 32px;
+							line-height: 32px;
+							min-width: 32px;
+							color: #333333;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormCalendarPickerMonthDay:hover
+{
+
+							font-size: 16px;
+							height: 32px;
+							color: #333333;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormCalendarPickerMonthItem
+{
+
+							font-size: 16px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormCalendarPickerNavBarItem
+{
+
+							font-size: 16px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormCalendarPickerNavBarItem:hover
+{
+
+							font-size: 16px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormCalendarPickerSelectedDate
+{
+
+							font-size: 16px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormCalendarPickerTodayDate
+{
+
+							font-size: 16px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormCalendarPickerTodayLabel
+{
+
+							font-size: 16px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormCalendarPickerTodaySection
+{
+
+							font-size: 16px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormCalendarPickerTodaySection:hover
+{
+
+							font-size: 16px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormCalendarPickerWeekDayContainer
+{
+
+							font-size: 13px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormCalendarPickerWeekDayItem
+{
+
+							font-size: 13px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormChargeOffConfirmation
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormCommonError
+{
+
+							font-size: 19px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormData
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormDataLink, article.ST79bf75348049454da2929315c2556bef section[class^="cbFormSection"] .cbFormData a
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormDataLink:hover, article.ST79bf75348049454da2929315c2556bef section[class^="cbFormSection"] .cbFormData a:hover
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormError
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormErrorMarker
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormExpandLink
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormExpandLink:hover
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormFile
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormHintLabel
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormHintLabel:hover
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormHintTipText
+{
+
+							font-size: 15px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormJumpToTextField
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormLabel
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormLabelError
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormLabelRequired
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormMultiSelectField
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormMultiSelectText
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormMultiSelectText_hover
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormNavigationDDown
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormNavigationLinks
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormNavigationLinks:hover
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormNavigationMessage
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormPassword
+{
+
+							font-size: 17px;
+							width: 100%;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormPaymentProcessor
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormRequiredMarker
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormSearchAgainLink
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormSearchAgainLink:hover
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormDownloadDetailsLink
+{
+
+							font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormDownloadDetailsLink:hover
+{
+
+							font-size: 17px;
+					
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormSelect
+{
+
+							font-size: 17px;
+							width: 100%;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormTextArea
+{
+
+							font-size: 17px;
+							width: 100%;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormTextAreaHint
+{
+
+							font-size: 15px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbFormTextField
+{
+
+							font-size: 17px;
+							width: 100%;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbHTMLBlockContainer
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbInlineAddFormButton
+{
+
+							font-size: 18px;
+							height: 46px;
+							width: 100%;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbInlineAddFormButton:hover
+{
+
+							font-size: 18px;
+							height: 46px;
+							width: 100%;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbLoginButton
+{
+
+							font-size: 18px;
+							height: 46px;
+							width: 100%;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbLoginButton:hover
+{
+
+							font-size: 18px;
+							height: 46px;
+							width: 100%;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbPasswordRecoveryButton
+{
+
+							font-size: 18px;
+							height: 46px;
+							width: 100%;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbPasswordRecoveryButton:hover
+{
+
+							font-size: 18px;
+							height: 46px;
+							width: 100%;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbPasswordResetButton
+{
+
+							font-size: 18px;
+							height: 46px;
+							width: 100%;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbPasswordResetButton:hover
+{
+
+							font-size: 18px;
+							height: 46px;
+							width: 100%;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbPasswordStrength
+{
+
+							font-size: 14px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetActionsContainer
+{
+
+							padding-left: 0;
+							padding-right: 0;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetActionsLinks
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetActionsLinks:hover
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetAddButton
+{
+
+							font-size: 18px;
+							height: 46px;
+							margin: 1em 0;
+							width: 100%;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetAddButton:hover
+{
+
+							font-size: 18px;
+							height: 46px;
+							margin: 1em 0;
+							width: 100%;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetAutoCompleteOptionRemainder
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetAutoCompleteOptionRemainder_hover
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetAutoCompleteOptionText
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetAutoCompleteOptionText_hover
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetBackToPivotActionLink
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetBackToPivotActionLink:hover
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetBulkDeleteActionLink
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetBulkDeleteActionLink:hover
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetBulkEditActionLink
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetBulkEditActionLink:hover
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetCalendarCaption
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetCalendarDataLabel
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetCalendarEvenCell
+{
+
+							padding: 10px 8px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetCalendarField
+{
+
+							font-size: 18px;
+							font-weight: 700;
+							text-align: center;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetCalendarField:before
+{
+
+							font-size: 14px;
+							font-weight: 400;
+							text-align: center;
+							text-transform: uppercase;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetCalendarFieldInactiveDate
+{
+
+							font-size: 17px;
+							text-align: center;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetCalendarFieldInactiveDate:before
+{
+
+							font-size: 14px;
+							text-align: center;
+							text-transform: uppercase;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetCalendarHintLabel
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetCalendarHintLabel:hover
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetCalendarLabel
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetCalendarNavigationLinks
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetCalendarNavigationLinks:hover
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetCalendarOddCell
+{
+
+							padding: 10px 8px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetCalendarTableNowCell
+{
+
+							padding: 10px 8px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetCancelButton
+{
+
+							font-size: 18px;
+							height: 46px;
+							margin: 1em 0;
+							width: 100%;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetCancelButton:hover
+{
+
+							font-size: 18px;
+							height: 46px;
+							margin: 1em 0;
+							width: 100%;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetCollapsedSubTotalLabel
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetCommonError
+{
+
+							font-size: 15px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetData
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetDataLink, article.ST79bf75348049454da2929315c2556bef table > thead + tbody > tr > td[class*="cbResultSetData"][class*="cbResultSetTableCell"] a
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetDataLink:hover, article.ST79bf75348049454da2929315c2556bef table > thead + tbody > tr > td[class*="cbResultSetData"][class*="cbResultSetTableCell"] a:hover
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetDownloadLink
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetDownloadLink:hover
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetError
+{
+
+							font-size: 15px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetEvenRow
+{
+
+							padding: 15px 0px 15px 0px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetExpandLink
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetExpandLink:hover
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetFile
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetGridEditActionLink
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetGridEditActionLink:hover
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetGroup1Data
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetGroup1Label
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetGroup1SubTotal
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetGroup2Data
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetGroup2Label
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetGroup2SubTotal
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetGroup3Data
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetGroup3Label
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetGroup3SubTotal
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetGroup4Data
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetGroup4Label
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetGroup4SubTotal
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetHintLabel
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetHintLabel:hover
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetHintTipText
+{
+
+							font-size: 15px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetJumpToTextField
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetLabel
+{
+
+							color: #333333;
+							font-family: Arial;
+							font-size: 17px;
+							font-weight: 700;
+							margin-right: 5px;
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetLabelLink
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetLabelLink:hover
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetListGallerySelectAllActionLink
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetListGallerySelectAllActionLink:hover
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetListViewDataLabel
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetListViewHintLabel
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetListViewHintLabel:hover
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetModifyButton
+{
+
+							font-size: 18px;
+							height: 46px;
+							margin: 1em 0;
+							width: 100%;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetModifyButton:hover
+{
+
+							font-size: 18px;
+							height: 46px;
+							margin: 1em 0;
+							width: 100%;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetMultiSelectField
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetMultiSelectText
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetMultiSelectText_hover
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetNavigationDDown
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetNavigationLinks
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetNavigationLinks:hover
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetNavigationMessages
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetOddRow
+{
+
+							padding: 15px 0px 15px 0px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetRecordIndex
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetRecordMessage
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetRecordPerPageControl
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetRecordPerPageMessage
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetSearchAgainLink
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetSearchAgainLink:hover
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetSelect
+{
+
+							font-size: 17px;
+							width: 100%;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetShowHideGroupText
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetShowHideGroupText:hover
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetSortControl
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetSortLabel
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetTextArea
+{
+
+							font-size: 17px;
+							width: 100%;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetTextField
+{
+
+							font-size: 17px;
+							width: 100%;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetTotalsData
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbResultSetTotalsLabel
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbSearchButton
+{
+
+							font-size: 18px;
+							height: 46px;
+							width: 100%;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbSearchButton:hover
+{
+
+							font-size: 18px;
+							height: 46px;
+							width: 100%;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbSubmitButton
+{
+
+							font-size: 18px;
+							height: 46px;
+							width: 100%;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbSubmitButton:hover
+{
+
+							font-size: 18px;
+							height: 46px;
+							width: 100%;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbSystemMessageContainerContent
+{
+
+							font-size: 17px;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbUpdateButton
+{
+
+							font-size: 18px;
+							height: 46px;
+							width: 100%;
+						
+}
+article.ST79bf75348049454da2929315c2556bef .cbUpdateButton:hover
+{
+
+							font-size: 18px;
+							height: 46px;
+							width: 100%;
+						
+}
 }
