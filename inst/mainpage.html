@@ -8,48 +8,231 @@
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             text-align: center;
-            margin: 20px;
+            margin: 0;
+            padding: 20px;
+            background-color: #f8f9fa;
         }
+
+        .search {
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        input {
+            padding: 12px 20px;
+            font-size: 16px;
+            border: 1px solid #ddd;
+            border-radius: 30px;
+            width: 300px;
+            transition: all 0.3s ease;
+        }
+
+        input:focus {
+            outline: none;
+            border-color: #0073b7;
+            box-shadow: 0 0 8px rgba(0, 115, 183, 0.3);
+        }
+
+        button {
+            background-color: #0073b7;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 30px;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        button:hover {
+            background-color: #005fa3;
+            transform: translateY(-2px);
+        }
+
+        .table-container {
+            width: 100%;
+            overflow-x: auto;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            background-color: white;
+            border-radius: 12px;
+            margin: 0 auto;
+        }
+
         table {
             width: 100%;
             border-collapse: collapse;
-            margin-top: 20px;
+            min-width: 1200px;
         }
+
         th, td {
             border: 1px solid #ddd;
-            padding: 10px;
+            padding: 16px;
             text-align: center;
+            vertical-align: middle;
+            transition: background-color 0.3s ease;
         }
+
         th {
             background-color: #0073b7;
             color: white;
             font-weight: bold;
+            position: sticky;
+            top: 0;
+            z-index: 1;
+            white-space: nowrap;
         }
+
         tr:nth-child(even) {
             background-color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: #e9ecef;
+        }
+
+        td:hover {
+            background-color: #ddeeff;
+        }
+
+        caption {
+            caption-side: top;
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #0073b7;
+            padding: 15px 0;
+            margin-bottom: 10px;
+        }
+
+        .no-results {
+            display: none;
+            padding: 20px;
+            color: #dc3545;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+
+        /* Scrollbar styling */
+        .table-container::-webkit-scrollbar {
+            height: 8px;
+        }
+
+        .table-container::-webkit-scrollbar-track {
+            background: #f1f1f1;
+            border-radius: 4px;
+        }
+
+        .table-container::-webkit-scrollbar-thumb {
+            background: #0073b7;
+            border-radius: 4px;
+        }
+
+        .table-container::-webkit-scrollbar-thumb:hover {
+            background: #005fa3;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            input {
+                width: 100%;
+            }
+
+            button {
+                width: 100%;
+            }
+
+            th, td {
+                padding: 12px;
+                font-size: 14px;
+            }
         }
     </style>
 </head>
 <body>
-    <table>
-        <tr>
-            <th>الفرقة الأولى</th>
-            <th>الدور الأول (مايو)</th>
-            <th>2024-2025</th>
-            <th>الوحدة التمهيدية</th>
-            <th>F5</th>
-            <th>وحدة الجهاز العصبي الهيكلي 1</th>
-            <th>F7</th>
-        </tr>
-        <tr>
-            <td>240606</td>
-            <td>محمد علي قرني<br>متولي مصطفى</td>
-            <td>مستجد</td>
-            <td>108</td>
-            <td>مقبول</td>
-            <td>راسب لائحة</td>
-            <td>راسب لائحة</td>
-        </tr>
-    </table>
+    <div class="table-container">
+        <table>
+            <caption>جدول الدرجات</caption>
+            <thead>
+                <tr>
+                    <th>الفرقة الأولى</th>
+                    <th>الدور الأول (مايو)</th>
+                    <th>2024-2025</th>
+                    <th>الوحدة التمهيدية</th>
+                    <th>F5</th>
+                    <th>وحدة الجهاز العصبي الهيكلي 1</th>
+                    <th>F7</th>
+                    <th>علم الأجنة</th>
+                    <th>F9</th>
+                    <th>التمثيل الغذائي 1</th>
+                    <th>F11</th>
+                    <th>مبادئ الجزيئات</th>
+                    <th>F13</th>
+                    <th>المصطلحات الطبية</th>
+                    <th>F15</th>
+                    <th>مهارات الحوسبة</th>
+                    <th>F17</th>
+                    <th>مهارات العرض</th>
+                    <th>المادة الاختيارية 1</th>
+                    <th>F21</th>
+                    <th>F22</th>
+                    <th>F23</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>240606</td>
+                    <td>محمد علي قرني متولي مصطفى</td>
+                    <td>مستجد</td>
+                    <td>130</td>
+                    <td>امتياز</td>
+                    <td>جيد جدا</td>
+                    <td>جيد جدا</td>
+                    <td>19.5</td>
+                    <td>جيد</td>
+                    <td>22.5</td>
+                    <td>جيد جداً</td>
+                    <td>19</td>
+                    <td>مقبول</td>
+                    <td>26.5</td>
+                    <td>ممتاز</td>
+                    <td>14</td>
+                    <td>ممتاز</td>
+                    <td>9</td>
+                    <td>مقبول</td>
+                    <td>9</td>
+                    <td colspan="3">ناجح</td>
+                </tr>
+                <!-- Add more rows here -->
+            </tbody>
+        </table>
+        <div class="no-results" id="noResults">لا توجد نتائج مطابقة</div>
+    </div>
+
+    <script>
+        function searchStudent() {
+            const input = document.getElementById('searchInput').value.toLowerCase();
+            const rows = document.querySelectorAll('tbody tr');
+            let found = false;
+
+            rows.forEach(row => {
+                const name = row.cells[1].textContent.toLowerCase();
+                if (name.includes(input)) {
+                    row.style.display = '';
+                    found = true;
+                } else {
+                    row.style.display = 'none';
+                }
+            });
+
+            const noResults = document.getElementById('noResults');
+            if (!found) {
+                noResults.style.display = 'block';
+            } else {
+                noResults.style.display = 'none';
+            }
+        }
+    </script>
+
 </body>
 </html>
