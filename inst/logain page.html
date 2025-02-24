@@ -32,6 +32,16 @@
             color: gray;
         }
     </style>
+    <script>
+        function search() {
+            var input = document.getElementById("search").value;
+            if (input === "240606") {
+                window.location.href = "https://ahme-jpg.github.io/logain/inst/mainpage.html";
+            } else {
+                alert("كود غير صحيح، حاول مرة أخرى.");
+            }
+        }
+    </script>
 </head>
 <body>
 
@@ -39,9 +49,7 @@
     <br><br>
     <input type="text" id="search">
     <br><br>
-    <button>SEARCH</button>
-
-    <div id="newcbbcaae000ddb1657ff9ee42d99c53" style="margin-top: 10px; display: flex; justify-content: center; flex-flow: column wrap; align-items: center; padding: 8px 5px; box-sizing: border-box; max-width: 346.087px; margin-left: 0px; margin-right: 0px;"><div id="disclaimerbcaae000ddb1657ff9ee42d99c53" style="text-align: center; font: 13px / 15px Arial; letter-spacing: 0px; color: rgb(112, 112, 112); opacity: 1; max-width: 100%; margin-bottom: 9px;">Built with a Caspio Trial Account. Do not submit passwords or sensitive data. <a href="https://c0axa076.caspio.com/dp/e8f40000dac6615af93544cca6ae" target="_blank" style="text-align: center; font: 13px / 15px Arial; letter-spacing: 0px; color: rgb(112, 112, 112); text-decoration: underline; display: inline-block;">Report Abuse</a></div><a href="https://www.caspio.com" rel="nofollow" target="_blank" style="font: bold 12px / 14px Arial; letter-spacing: 0px; color: rgb(2, 127, 170); text-transform: uppercase; opacity: 1; text-decoration: none; display: inline-flex; justify-content: center; align-items: center; white-space: nowrap; max-width: 100%;">POWERED BY <img src="https://d2hby557.caspio.com/images/logo.svg" style="height: 30px; width: 94px; min-width: 94px; margin-left: 6px; opacity: 1; vertical-align: middle;"></a></div>
+    <button onclick="search()">SEARCH</button>
 
 </body>
 </html>
