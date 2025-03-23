@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose Your Department - BSNU</title>
+    <link rel="stylesheet" href="depart.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <img src="/img/logo_Pages.png" alt="BSNU Logo" class="logo">
+        <h1>Welcome to BSNU</h1>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+        <section class="section">
+            <h2>Choose Your Department</h2>
+            <div class="department-options">
+                <!-- Cyber Security Department -->
+                <div class="department-card" onclick="selectDepartment('cyber/cyberdata.html')">
+                    <h3>Cyber Security</h3>
+                </div>
+
+                <!-- AI Science Department -->
+                <div class="department-card" onclick="selectDepartment('A-I')">
+                    <h3>AI</h3>
+                </div>
+
+                <!-- Medical  Department -->
+                <div class="department-card" onclick="selectDepartment('medical')">
+                    <h3>Medical</h3>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <p>© MADE BY : TRIPLE AAA TEAM(Ahmed hany || Ahmed yasser || Ahmed nasser(slvsh)  )</p>
+        <p>Contact: TRIPLE AAA@gmail.com | Tel: 01124700344</p>
+    </footer>
+
+    <!-- JavaScript for Department Selection -->
+    <script>
+        function selectDepartment(page) {
+            // Redirect to the respective department's page
+            window.location.href = page;
+        }
+    </script>
+</body>
+</html>
