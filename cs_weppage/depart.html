@@ -7,9 +7,12 @@
     <link rel="stylesheet" href="depart.css">
 </head>
 <body>
+    <!-- Background Overlay -->
+    <div class="background-overlay"></div>
+
     <!-- Header Section -->
     <header class="header">
-        <img src="/img/logo_Pages.png" alt="BSNU Logo" class="logo">
+        <img src="mainimg/تم تعديل - logo_Pages.png" alt="BSNU Logo" class="logo">
         <h1>Welcome to BSNU</h1>
     </header>
 
@@ -20,17 +23,23 @@
             <div class="department-options">
                 <!-- Cyber Security Department -->
                 <div class="department-card" onclick="selectDepartment('cyber/cyberdata.html')">
+                    <div class="card-icon">🔒</div>
                     <h3>Cyber Security</h3>
+                    <p>Protect the digital world from threats and vulnerabilities.</p>
                 </div>
 
                 <!-- AI Science Department -->
                 <div class="department-card" onclick="selectDepartment('A-I')">
+                    <div class="card-icon">🤖</div>
                     <h3>AI</h3>
+                    <p>Explore the future of artificial intelligence and machine learning.</p>
                 </div>
 
-                <!-- Medical  Department -->
+                <!-- Medical Department -->
                 <div class="department-card" onclick="selectDepartment('medical')">
+                    <div class="card-icon">🏥</div>
                     <h3>Medical</h3>
+                    <p>Advance healthcare with cutting-edge technology and research.</p>
                 </div>
             </div>
         </section>
@@ -38,14 +47,15 @@
 
     <!-- Footer Section -->
     <footer class="footer">
-        <p>© MADE BY : TRIPLE AAA TEAM(Ahmed hany || Ahmed yasser || Ahmed nasser(slvsh)  )</p>
-        <p>Contact: TRIPLE AAA@gmail.com | Tel: 01124700344</p>
+        <div class="footer-content">
+            <p>© MADE BY : TRIPLE AAA TEAM (Ahmed Hany || Ahmed Yasser || Ahmed Nasser (slvsh))</p>
+            <p>Contact: TRIPLEAAA@gmail.com | Tel: 01124700344</p>
+        </div>
     </footer>
 
     <!-- JavaScript for Department Selection -->
     <script>
         function selectDepartment(page) {
-            // Redirect to the respective department's page
             window.location.href = page;
         }
     </script>
