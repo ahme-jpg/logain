@@ -3,14 +3,24 @@
     --secondary-color: #2b4a8e;
     --accent-red: #e74c3c;
     --accent-green: #27ae60;
-    --accent-blue: #3498db;
+    --accent-blue: #2b4a8e;
     --text-light: #ffffff;
     --overlay-color: rgba(26, 53, 110, 0.9);
     --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* Base Reset */
+@keyframes slideInFromLeft {
+    from {
+        transform: translateX(-20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -28,6 +38,7 @@ body {
     color: var(--text-light);
     min-height: 100vh;
     background: fixed center/cover url(mainimg/el\ gama\ photo.jpg);
+    overflow-x: hidden;
 }
 
 .background-overlay {
@@ -37,13 +48,13 @@ body {
     z-index: -1;
 }
 
-/* Header */
 .header {
     padding: 1rem;
     text-align: center;
     backdrop-filter: blur(10px);
     background: rgba(255, 255, 255, 0.08);
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    animation: slideInFromLeft 0.6s ease-out;
 }
 
 .logo {
@@ -59,7 +70,6 @@ body {
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
-/* Navigation */
 .nav {
     position: sticky;
     top: 0;
@@ -89,10 +99,9 @@ body {
 }
 
 .nav a:hover {
-    background: rgba(255, 255, 255, 0.15);
+    background: rgba(43, 74, 142, 0.15);
 }
 
-/* Main Content */
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -115,7 +124,6 @@ body {
     text-align: center;
 }
 
-/* Course Cards */
 .course-card {
     background: rgba(255, 255, 255, 0.05);
     border-radius: 0.75rem;
@@ -133,7 +141,7 @@ body {
 }
 
 .course-header:hover {
-    background: rgba(255, 255, 255, 0.05);
+    background: rgba(26, 53, 110, 0.05);
 }
 
 .course-header h3 {
@@ -155,7 +163,6 @@ body {
     transition: max-height 0.3s ease-out;
 }
 
-/* Resource Sections */
 .resource-section {
     padding: 1rem;
     margin: 1rem;
@@ -165,7 +172,7 @@ body {
 
 .pdf-section { border-left: 4px solid var(--accent-red); }
 .tasks-section { border-left: 4px solid var(--accent-green); }
-.videos-section { border-left: 4px solid var(--accent-blue); }
+.videos-section { border-left: 4px solid var(--secondary-color); }
 
 .resource-title {
     font-weight: 600;
@@ -180,6 +187,9 @@ body {
 .resource-list li {
     padding: 0.5rem 0;
     margin: 0.5rem 0;
+    transform: translateX(0);
+    opacity: 1;
+    transition: transform 0.4s ease, opacity 0.4s ease;
 }
 
 .resource-list a {
@@ -208,7 +218,6 @@ body {
     margin: 0.5rem 0;
 }
 
-/* Footer */
 .footer {
     text-align: center;
     padding: 2rem 1rem;
@@ -228,8 +237,25 @@ body {
     text-decoration: underline;
 }
 
-/* Mobile Optimization */
 @media (max-width: 768px) {
+    #home,
+    .resource-list li {
+        animation: slideInFromLeft 0.6s ease-out forwards;
+        opacity: 0;
+    }
+
+    #home {
+        animation-delay: 0.2s;
+    }
+
+    .resource-list li {
+        animation-delay: 0.4s;
+    }
+
+    .resource-list li:nth-child(2) {
+        animation-delay: 0.5s;
+    }
+
     .header h1 {
         font-size: 1.2rem;
     }
