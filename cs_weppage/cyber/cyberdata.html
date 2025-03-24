@@ -3,125 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="BSNU Cyber Security Portal - Access course materials, assignments, and resources.">
-    <title>BSNU Cyber Security Portal</title>
-    <link rel="stylesheet" href="css/cyberdata.css">
+    <title>Cyber Department Portal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Your Existing CSS Here -->
 </head>
 <body>
+    <div class="background-overlay"></div>
+    
+    <!-- Header -->
     <header class="header">
-        <img src="cyber img/logo_Pages.png" alt="BSNU Logo" class="logo">
-        <h1>BSNU CYBER SECURITY DEPARTMENT</h1>
+        <img src="logo.png" alt="Cyber Dept Logo" class="logo">
+        <h1>Cyber Security Department</h1>
     </header>
 
-    <nav class="nav">
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#today">Today's Lectures</a></li>
-            <li><a href="#courses">All Courses</a></li>
-            <li><a href="login_panel.html">Login Admin</a></li>
-        </ul>
-    </nav>
-
-    <main class="container">
-        <!-- Home Section -->
-        <section class="section" id="home">
-            <h2>Welcome to Cyber Security Studies</h2>
-            <p>Click on course names to view materials, assignments, and resources.</p>
-        </section>
-
-        <!-- Today's Lectures Section -->
-        <section class="section" id="today">
-            <h2>Schedule and Cancelled Lectures</h2>
-            
-            <!--schedules-->
-            <div class="course-card">
-                <div class="course-header" onclick="toggleCourse(this)">
-                    <h3>Schedule</h3>
-                    <span class="toggle-icon">▼</span>
+    <div class="container">
+        <!-- Schedule Section -->
+        <section class="section">
+            <h2><i class="fas fa-calendar-alt"></i> Weekly Schedule</h2>
+            <div class="department-options">
+                <div class="department-card">
+                    <h3>Monday</h3>
+                    <p>9:00 AM - Network Security</p>
+                    <p>2:00 PM - Cryptography Lab</p>
+                    <div class="status-indicator ongoing">Ongoing</div>
                 </div>
-                <div class="course-content">
-                    <div class="resource-section">
-                        <ul class="resource-list">
-                            <li><img src="cyber img/جدول.jpg" alt="Today's Schedule" class="responsive-img"></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-                <!--cancelled courses-->
-            <div class="course-card">
-                <div class="course-header" onclick="toggleCourse(this)">
-                    <h3>Cancelled Lectures</h3>
-                    <span class="toggle-icon">▼</span>
-                </div>
-                <div class="course-content">
-                </div>
-                <div class="course-content">
-                    <div class="resource-section pdf-section">
-                        <div class="resource-title">lec math II</div>
-                    </div>
+                
+                <div class="department-card">
+                    <h3>Wednesday</h3>
+                    <p>10:00 AM - Ethical Hacking</p>
+                    <p>3:00 PM - Cyber Forensics</p>
+                    <div class="status-indicator upcoming">Starts in 2h</div>
                 </div>
             </div>
         </section>
 
-        <!-- All Courses Section -->
-        <section class="section" id="courses">
-            <h2>Course Catalog</h2>
-
-            <!-- Course Cards -->
-            <div class="course-card">
-                <div class="course-header" onclick="toggleCourse(this)">
-                    <h3>Discrete Mathematics</h3>
-                    <span class="toggle-icon">▼</span>
+        <!-- Cancelled Sessions -->
+        <section class="section">
+            <h2><i class="fas fa-times-circle"></i> Cancelled Sessions</h2>
+            <div class="department-options">
+                <div class="department-card cancelled">
+                    <h3>Friday Lecture Cancelled</h3>
+                    <p>Cloud Security (CS-405)</p>
+                    <p>Reason: Instructor Unavailable</p>
+                    <div class="cancelled-label">CANCELLED</div>
                 </div>
-                <div class="course-content">
-                    <div class="resource-section pdf-section">
-                        <div class="resource-title">Course Materials</div>
-                        <ul class="resource-list">
-                            <li><a href="fund-is.pdf">Course Syllabus</a></li>
-                            <li><a href="lecture1.pdf">Lecture Notes 1</a></li>
+            </div>
+        </section>
+
+        <!-- Courses Section -->
+        <section class="section">
+            <h2><i class="fas fa-laptop-code"></i> Courses</h2>
+            <div class="department-options">
+                <!-- Cyber Defense Course -->
+                <div class="department-card">
+                    <h3>Cyber Defense (CS-301)</h3>
+                    <div class="course-materials">
+                        <h4>Materials:</h4>
+                        <ul>
+                            <li><a href="#"><i class="fas fa-file-pdf"></i> Lecture 4 Slides</a></li>
+                            <li><a href="#"><i class="fas fa-video"></i> Firewall Config Video</a></li>
                         </ul>
                     </div>
-                    <div class="resource-section tasks-section">
-                        <div class="resource-title">Assignments</div>
-                        <ul class="resource-list">
-                            <li>Security Basics <span class="due-date">(Due: 10/15)</span></li>
-                            <li>Risk Analysis <span class="due-date">(Due: 10/22)</span></li>
+                    <div class="assignments">
+                        <h4>Assignments:</h4>
+                        <p>Due: 2023-12-15</p>
+                        <a href="#" class="assignment-link">Submit PenTest Report</a>
+                    </div>
+                </div>
+
+                <!-- Digital Forensics Course -->
+                <div class="department-card">
+                    <h3>Digital Forensics (CS-305)</h3>
+                    <div class="course-materials">
+                        <h4>Case Files:</h4>
+                        <ul>
+                            <li><a href="#"><i class="fas fa-database"></i> Case Study #3 Data</a></li>
+                            <li><a href="#"><i class="fas fa-microscope"></i> Forensic Tools Guide</a></li>
                         </ul>
                     </div>
-                    <div class="resource-section videos-section">
-                        <div class="resource-title">Video Lectures</div>
-                        <ul class="resource-list">
-                            <li><a href="#">Intro to IS Security</a></li>
-                            <li><a href="#">Cryptography Basics</a></li>
-                        </ul>
+                    <div class="assignments">
+                        <h4>Current Task:</h4>
+                        <p>Memory Analysis Exercise</p>
+                        <a href="#" class="assignment-link">Upload Analysis</a>
                     </div>
                 </div>
             </div>
-
-            <!-- Repeat for other courses -->
-            <!-- Add more course cards here as needed -->
-
         </section>
-    </main>
+    </div>
 
+    <!-- Footer -->
     <footer class="footer">
-        <p>© MADE BY : TRIPLE AAA TEAM (Ahmed Hany || Ahmed Yasser || Ahmed Nasser (Slvsh))</p>
-        <p>Contact: <a href="mailto:TRIPLEAAA@gmail.com">TRIPLEAAA@gmail.com</a> | Tel: 01124700344</p>
+        <div class="footer-content">
+            <p>© 2023 Cyber Security Department</p>
+            <p>Emergency Contact: cyber-help@uni.edu</p>
+        </div>
     </footer>
-
-    <script>
-        function toggleCourse(header) {
-            const courseCard = header.parentElement;
-            courseCard.classList.toggle('active');
-
-            // Close other open courses
-            document.querySelectorAll('.course-card').forEach(card => {
-                if (card !== courseCard && card.classList.contains('active')) {
-                    card.classList.remove('active');
-                }
-            });
-        }
-    </script>
 </body>
 </html>
