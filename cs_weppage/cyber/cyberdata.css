@@ -1,0 +1,361 @@
+:root {
+  --primary-900: #30343d;
+  --primary-500: #141d33;
+  --accent-red: #e74c3c;
+  --accent-green: #27ae60;
+  --text-light: #598c5d;
+  --text-dark: #2c3e50;
+  --overlay: rgba(26, 53, 110, 0.95);
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.12);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --transition: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+}
+
+body {
+  font-family: 'Poppins', system-ui, sans-serif;
+  line-height: 1.6;
+  color: var(--text-light);
+  background: linear-gradient(45deg, var(--primary-900), var(--primary-500)),
+              url(img/security-fraud-hero.webp) fixed;
+  background-size: cover;
+  background-blend-mode: multiply;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--space-md);
+}
+
+/* شريط العنوان ثابت ويظهر دائمًا */
+.header {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  padding: var(--space-sm);
+  text-align: center;
+  position: sticky;
+  top: 0;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__title {
+  grid-column: 2;
+  text-align: center;
+}
+
+/* تحسين قسم الشعار */
+.logo-link {
+  display: inline-block;
+  margin-right: var(--space-sm);
+}
+
+.logo {
+  max-width: 250px;
+  height: auto;
+  display: block;
+  fill : currentColor
+  /* إعادة استخدام إعداد الفلتر كما في النسخة السابقة */
+}
+
+.logo-link:hover .logo {
+  opacity: 0.8;
+  transition: opacity var(--transition);
+}
+
+.hamburger {
+  background: none;
+  border: none;
+  color: var(--text-light);
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: var(--space-xs);
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: -280px;
+  bottom: 0;
+  width: 280px;
+  background: var(--primary-900);
+  box-shadow: var(--shadow-md);
+  transition: transform var(--transition);
+  z-index: 1000;
+}
+
+.sidebar.active {
+  transform: translateX(280px);
+}
+
+.sidebar__list {
+  list-style: none;
+  padding: var(--space-md);
+}
+
+.sidebar__link {
+  display: block;
+  padding: var(--space-sm);
+  color: var(--text-light);
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background-color var(--transition);
+}
+
+.sidebar__link:hover {
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.home-content {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(8px);
+  border-radius: 8px;
+  padding: var(--space-lg);
+}
+
+.content__features {
+  list-style: none;
+  margin-top: var(--space-md);
+  display: grid;
+  gap: var(--space-xs);
+}
+
+.course-card {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  margin: var(--space-md) 0;
+  overflow: hidden;
+  transition: transform var(--transition);
+}
+
+.course-card.active {
+  transform: scale(1.02);
+}
+
+.course-header {
+  padding: var(--space-md);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color var(--transition);
+}
+
+.course-header:hover {
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.course-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+}
+
+.resource-section {
+  padding: var(--space-md);
+  border-left: 4px solid transparent;
+}
+
+.footer {
+  background: rgba(255, 255, 255, 0.07);
+  backdrop-filter: blur(10px);
+  margin-top: var(--space-lg);
+  padding: var(--space-md);
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+      width: 240px;
+      left: -240px;
+  }
+  .sidebar.active {
+      transform: translateX(240px);
+  }
+}
+
+@media (max-width: 480px) {
+  :root {
+      --space-md: 1rem;
+      --space-lg: 1.5rem;
+  }
+  .home-content {
+      padding: var(--space-sm);
+  }
+  .header h1 {
+      font-size: var(--text-lg);
+  }
+}
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  padding: var(--space-xs) var(--space-sm);
+  background: var(--primary-900);
+  color: var(--text-light);
+}
+
+.skip-link:focus {
+  left: var(--space-sm);
+  top: var(--space-sm);
+  z-index: 1000;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent-green);
+  outline-offset: 2px;
+}
+
+.responsive-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  vertical-align: middle;
+  background: linear-gradient(90deg, 
+    rgba(26, 53, 110, 0.1) 25%,
+    rgba(43, 74, 142, 0.1) 50%,
+    rgba(26, 53, 110, 0.1) 75%
+  );
+  background-size: 400% 400%;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+      transition-duration: 0.01ms !important;
+      animation-duration: 0.01ms !important;
+  }
+  html {
+      scroll-behavior: auto;
+  }
+}
+
+.admin-panel {
+  position: fixed;
+  left: -300px;
+  top: 0;
+  bottom: 0;
+  width: 280px;
+  background: var(--primary-900);
+  box-shadow: var(--shadow-md);
+  transition: transform var(--transition);
+  z-index: 1000;
+}
+
+.admin-panel.active {
+  transform: translateX(300px);
+}
+
+.admin-nav {
+  padding: var(--space-md);
+}
+
+.admin-nav ul {
+  list-style: none;
+  margin-top: var(--space-md);
+}
+
+.admin-nav li a {
+  color: var(--text-light);
+  padding: var(--space-sm);
+  display: block;
+  text-decoration: none;
+}
+
+.admin-close {
+  position: absolute;
+  right: var(--space-sm);
+  top: var(--space-sm);
+  background: transparent;
+  border: none;
+  color: var(--text-light);
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.course-grid {
+  display: grid;
+  gap: var(--space-md);
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.5);
+  display: none;
+  z-index: 999;
+}
+
+.overlay.active {
+  display: block;
+}
+
+.enroll-btn {
+  background: var(--accent-green);
+  color: var(--text-light);
+  border: none;
+  padding: var(--space-xs) var(--space-sm);
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: var(--space-sm);
+}
+
+.fa-lock {
+  margin-right: 0.5rem;
+}
+
+/* Styles for course tabs */
+.course-tabs {
+  display: flex;
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+  margin-bottom: var(--space-md);
+}
+
+.tab-btn {
+  background: transparent;
+  border: none;
+  padding: var(--space-xs) var(--space-sm);
+  color: var(--text-light);
+  cursor: pointer;
+  transition: background-color var(--transition);
+}
+
+.tab-btn:hover {
+  background-color: rgba(255,255,255,0.1);
+}
+
+.tab-btn.active {
+  border-bottom: 2px solid var(--accent-green);
+}
+
+.tab-content {
+  display: none;
+  padding: var(--space-md) 0;
+}
+
+.tab-content.active {
+  display: block;
+}
