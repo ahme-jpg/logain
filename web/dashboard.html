@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard - Student Portal</title>
+<style>
+:root{
+  --primary:#003f87; --accent:#4f8cff; --bg:#eef2f7; --card:rgba(255,255,255,0.85);
+  --text:#222; --muted:#555; --success:#1e7f4f; --danger:#c62828;
+}
+body{margin:0;padding:0;font-family:"Segoe UI",Arial,sans-serif;background:var(--bg);}
+.wrapper{display:flex;min-height:100vh;}
+.sidebar{width:220px;background:var(--primary);color:#fff;padding:20px;flex-shrink:0;}
+.sidebar h2{text-align:center;margin-bottom:30px;font-size:18px;}
+.sidebar a{display:block;color:#fff;padding:12px;margin-bottom:8px;border-radius:6px;opacity:.9;transition:0.2s;}
+.sidebar a:hover,.sidebar a.active{background:rgba(255,255,255,.15);opacity:1;}
+.main{flex:1;padding:25px;}
+.topbar{background:#fff;padding:15px 20px;border-radius:10px;box-shadow:0 6px 18px rgba(0,0,0,.08);
+display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;position:sticky;top:0;z-index:10;}
+.profile{background:var(--card);backdrop-filter:blur(12px);border-radius:18px;padding:20px;
+display:flex;align-items:center;box-shadow:0 8px 25px rgba(0,0,0,.12);margin-bottom:25px;}
+.avatar{width:80px;height:80px;border-radius:50%;background:linear-gradient(135deg,var(--primary),var(--accent));
+color:#fff;display:flex;justify-content:center;align-items:center;font-size:28px;margin-right:20px;}
+.profile h3{font-size:16px;}
+.profile p{font-size:13px;color: var(--muted);}
+.progress{background:#e0e6f1;height:8px;border-radius:6px;margin-top:8px;overflow:hidden;}
+.progress div{width:0;height:100%;background: var(--success);transition:width 1.5s;}
+.cards{display:grid;grid-template-columns: repeat(auto-fit,minmax(180px,1fr));gap:15px;margin-bottom:25px;}
+.card{background: var(--card);backdrop-filter: blur(12px);padding:15px;border-radius:16px;
+box-shadow:0 8px 25px rgba(0,0,0,.12);}
+.card span{font-size:12px;color: var(--muted);}
+.card strong{display:block;margin-top:5px;font-size:18px;color: var(--primary);}
+.gpa.good{color:var(--success);}
+.section{margin-bottom:25px;}
+.section h3{font-size:16px;margin-bottom:10px;}
+.course{background:var(--card);backdrop-filter: blur(12px);padding:14px;border-radius:16px;margin-bottom:10px;
+box-shadow:0 8px 25px rgba(0,0,0,.12);}
+.course strong{display:block;font-size:14px;}
+.course span{font-size:12px;color: var(--muted);}
+.logout{display:inline-block;padding:10px 18px;margin-top:15px;border-radius:8px;background: var(--danger);
+color:#fff;cursor:pointer;transition:.2s;}
+.logout:hover{background:#a61c1c;}
+.bottom-nav{display:none;}
+@media(max-width:768px){
+  .wrapper{flex-direction: column;}
+  .sidebar{width:100%;display:flex;justify-content:space-around;padding:10px 0;}
+  .sidebar a{margin:0;padding:8px 10px;}
+  .cards{grid-template-columns:1fr 1fr;}
+  .bottom-nav{display:flex;position:fixed;bottom:0;left:0;right:0;background: rgba(255,255,255,.95);
+  justify-content:space-around;padding:10px 0;box-shadow:0 -4px 20px rgba(0,0,0,.15);z-index:20;}
+  .bottom-nav a{text-decoration:none;font-size:12px;color: var(--muted);text-align:center;}
+  .bottom-nav a.active{color: var(--primary);font-weight:600;}
+}
+@media(max-width:480px){.cards{grid-template-columns:1fr;}
+.profile{flex-direction: column;align-items: flex-start;}
+.avatar{margin-bottom:10px;}
+}
+</style>
+</head>
+<body>
+
+<div class="wrapper">
+  <div class="sidebar">
+    <h2>Portal</h2>
+    <a class="active">Dashboard</a>
+    <a>Courses</a>
+    <a>Results</a>
+    <a>Registration</a>
+    <a>Profile</a>
+  </div>
+
+  <div class="main">
+    <div class="topbar">
+      <strong>Beni-Suef University</strong>
+      <span>Academic Year 2024 / 2025</span>
+    </div>
+
+    <div class="profile">
+      <div class="avatar">A</div>
+      <div>
+        <h3>abderlhman ahmed abdalla</h3>
+        <p>Faculty of Commerce • Third Year</p>
+        <div class="progress"><div id="progressBar"></div></div>
+      </div>
+    </div>
+
+    <div class="cards">
+      <div class="card"><span>Student ID</span><strong>240100449</strong></div>
+      <div class="card"><span>GPA</span><strong class="gpa good" id="gpaNum">3.20</strong></div>
+      <div class="card"><span>Courses</span><strong>5</strong></div>
+      <div class="card"><span>Graduation</span><strong>2026</strong></div>
+    </div>
+
+    <div class="section">
+      <h3>Current Courses</h3>
+      <div class="course"><strong>Financial Accounting</strong><span>COM301 • 3 Credits</span></div>
+      <div class="course"><strong>Cost Accounting</strong><span>COM302 • 3 Credits</span></div>
+      <div class="course"><strong>Business Law</strong><span>COM303 • 2 Credits</span></div>
+    </div>
+
+    <a class="logout" onclick="logout()">Logout</a>
+  </div>
+</div>
+
+<div class="bottom-nav">
+  <a class="active">Home</a>
+  <a>Courses</a>
+  <a>Results</a>
+  <a onclick="logout()">Logout</a>
+</div>
+
+<script>
+// Animate progress bar and GPA
+window.onload = function(){
+  let progress = document.getElementById("progressBar");
+  let width = 0;
+  let interval = setInterval(()=>{ if(width>=66){clearInterval(interval);} else{ width++; progress.style.width=width+"%"; }},10);
+  
+  let gpa = document.getElementById("gpaNum");
+  let gpaValue = 0;
+  let gpaTarget = 3.20;
+  let gpaInterval = setInterval(()=>{
+    if(gpaValue>=gpaTarget){ clearInterval(gpaInterval); }
+    else{ gpaValue+=0.01; gpa.textContent=gpaValue.toFixed(2); }
+  },30);
+}
+
+function logout(){
+  window.location.href="login.html";
+}
+</script>
+
+</body>
+</html>
